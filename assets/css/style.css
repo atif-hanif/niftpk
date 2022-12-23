@@ -1,0 +1,14 @@
+/* Mega Menu */
+
+.navbar .megamenu {
+	padding: 1rem;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-unstyled li a {
+    text-decoration: none;
+}
