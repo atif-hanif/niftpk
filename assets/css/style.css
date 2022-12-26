@@ -1,14 +1,86 @@
-/* Mega Menu */
-
-.navbar .megamenu {
-	padding: 1rem;
+:root {
+    --primary-color: #df022d;
+    --bs-black: #000;
+    --bs-gray: #333;
+    --font-family: Montserrat !important;
 }
 
-.list-unstyled {
-    padding-left: 0;
-    list-style: none;
+body {
+    font-family: var(--font-family);
 }
 
-.list-unstyled li a {
-    text-decoration: none;
+.nav-link {
+    color: var(--bs-black);
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: var(--primary-color);
+}
+
+.nav-link:focus, .nav-link:hover {
+    color: var(--primary-color);
+}
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: var(--primary-color);
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%
+}
+
+.navbar .nav-item .dropdown-menu {
+    background-color: #f2f2f2;
+}
+
+.dropdown-menu {
+    border-radius: 0px;
+}
+
+.dropdown-item:hover {
+    background-color: var(--primary-color) !important;
+    color: #fff;
+}
+
+.top-bar {
+    border-bottom: 2px solid var(--primary-color);
+    padding: 5px 0px;
+}
+
+.main-menu {
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.carousel-indicators [data-bs-target] {
+    background-color: var(--bs-black);
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+    background-color: var(--primary-color);
+}
+
+.services .card {
+    background-color: var(--primary-color);
+    height: 100%;
+}
+
+.services .card:hover {
+    background-color: var(--bs-gray);
+}
+
+.services h2 {
+    text-transform: uppercase;
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.nift-etrust {
+    height: 37px;
+    width: 37px;
 }
