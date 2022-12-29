@@ -10,8 +10,12 @@ body {
     font-family: var(--font-family);
 }
 
-.nav-link {
+.top-bar .nav-link {
     color: var(--bs-black);
+}
+
+.nav-link {
+    color: var(--bs-white);
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
@@ -49,13 +53,13 @@ body {
 }
 
 .top-bar {
-    border-bottom: 2px solid var(--primary-color);
+    /* border-bottom: 2px solid var(--primary-color); */
     padding: 5px 0px;
 }
 
-.main-menu {
+/* .main-menu {
     border-bottom: 2px solid var(--primary-color);
-}
+} */
 
 /* Home Page */
 
