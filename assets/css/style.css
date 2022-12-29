@@ -57,9 +57,34 @@ body {
     padding: 5px 0px;
 }
 
+.bg-black {
+    background: var(--bs-black);
+}
+
 /* .main-menu {
     border-bottom: 2px solid var(--primary-color);
 } */
+
+/* Mega Menu */
+
+.navbar .megamenu { 
+    padding: 1rem; 
+}
+
+.megamenu a {
+    color: var(--bs-black);
+    text-decoration: none;
+}
+
+.megamenu a:hover {
+    color: var(--bs-white);
+    background-color: var(--primary-color);
+    padding: 5px;
+}
+
+.heading {
+    color: var(--primary-color);
+}
 
 /* Home Page */
 
