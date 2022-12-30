@@ -1,14 +1,14 @@
 @media all and (min-width: 992px) {
 
 	.navbar .has-megamenu {
-		position: static!important;
+		position: static !important;
 	}
 
 	.navbar .megamenu {
-		left:0;
-		right:0;
-		width:100%;
-		margin-top:0; 
+		left: 0;
+		right: 0;
+		width: 100%;
+		margin-top: 10px; 
 	}
 
 	/* .navbar .nav-item .dropdown-menu {
@@ -63,6 +63,6 @@
 	.navbar.fixed-top .navbar-collapse, .navbar.sticky-top .navbar-collapse {
 		overflow-y: auto;
 	    max-height: 90vh;
-	    margin-top:10px;
+	    margin-top: 10px;
 	}
 }

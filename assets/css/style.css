@@ -71,19 +71,40 @@ body {
     padding: 1rem; 
 }
 
-.megamenu a {
-    color: var(--bs-black);
-    text-decoration: none;
+
+.megamenu li {
+    width: 100%;
+    padding: 5px;
+    background: linear-gradient(to right, var(--primary-color) 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition: all 1s ease;
 }
 
-.megamenu a:hover {
+.megamenu li:hover {
+    background-position: left bottom;
+}
+
+.megamenu li:hover a {
     color: var(--bs-white);
-    background-color: var(--primary-color);
-    padding: 5px;
+}
+
+.megamenu a {
+    color: var(--bs-black);
+    text-decoration: none;   
 }
 
 .heading {
     color: var(--primary-color);
+}
+
+.heading a {
+    color: var(--primary-color);
+}
+
+.navbar-toggler-icon {
+    color: var(--bs-white);
+    background-image: url(../images/menu.png);
 }
 
 /* Home Page */
@@ -281,6 +302,10 @@ body {
 	}
 }
 
+.about img {
+    width: 100%;
+}
+
 /* Footer */
 
 footer {
@@ -329,10 +354,9 @@ footer .nav-item::after {
 }
 
 .top-footer {
-    padding-bottom: 50px
+    background-color: var(--bs-black);
 }
 
 .bottom-footer {
     border-top: 2px solid var(--primary-color);
-    padding-top: 50px;
 }
