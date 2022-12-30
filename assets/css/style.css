@@ -40,7 +40,8 @@ body {
 }
 
 .navbar .nav-item .dropdown-menu {
-    background-color: #f2f2f2;
+    background-color: var(--bs-black);
+    opacity: 0.95;
 }
 
 .dropdown-menu {
@@ -90,7 +91,7 @@ body {
 }
 
 .megamenu a {
-    color: var(--bs-black);
+    color: var(--bs-white);
     text-decoration: none;   
 }
 
