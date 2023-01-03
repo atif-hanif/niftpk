@@ -119,6 +119,30 @@ body {
     background-color: var(--primary-color);
 }
 
+/* About */
+
+.about {
+    /* background: url(../images/sec1-bg.jpg) no-repeat fixed;
+    background-size: cover; */
+    padding: 60px 0px;
+}
+
+.about h2 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.about p {
+    /* color: var(--bs-white); */
+    text-align: justify;
+}
+
+/* Services */
+
+.services {
+    background-image: linear-gradient(to right, #262626, #4d4d4d);
+}
+
 .services h2 {
     text-transform: uppercase;
     color: var(--primary-color);
@@ -133,57 +157,27 @@ body {
 .services .card {
     position: relative;
     overflow: hidden;
-    background-color: var(--primary-color);
+    /* background-color: var(--primary-color); */
     height: 100%;
     margin: 0 auto;
     padding: 20px;
     box-sizing: border-box;
-    text-align: center;
+    text-align: left;
     border-radius: 0px;
+    border-color: transparent;
+    background-color: transparent;
 }
 
-.services .card .layer {
-    z-index: 1;
-    position: absolute;
-    top: calc(100% - 2px);
-    height: 100%;
-    width: 100%;
-    left: 0;
-    background:#333;
-    transition: 0.5s;
-}
-
-.services .card .content {
-    z-index:2; 
-    position:relative;
-}
-
-.services .card:hover {
-    border-color: var(--bs-gray);
-}
-  
-.services .card:hover .layer{
-    top:0;
-}
-
-.services .card:hover h3 span {
-    color: var(--primary-color);
-}
-
-.about {
-    background: url(../images/sec1-bg.jpg) no-repeat fixed;
-    background-size: cover;
-    padding: 60px 0px;
-}
-
-.about h2 {
-    color: var(--primary-color);
-    text-transform: uppercase;
-}
-
-.about p {
+.services h3 {
     color: var(--bs-white);
-    text-align: justify;
+}
+
+.services h3 span {
+    color: var(--primary-color);
+}
+
+.services p {
+    color: var(--bs-white);
 }
 
 .custom-btn {
@@ -193,118 +187,237 @@ body {
 }
 
 .custom-btn:hover, .custom-btn:focus {
-    box-shadow: inset 7.5em 0 0 0 var(--bs-gray);
+    box-shadow: inset 8.5em 0 0 0 var(--bs-gray);
     border-color: var(--bs-gray);
 }
+
+/* Projects */
 
 .projects h2 {
     color: var(--primary-color);
     text-transform: uppercase;
 }
 
-.card-sl {
-	border-radius: 8px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.u-gutter-0 .u-layout {
+    margin: 0px;
 }
 
-.card-image img {
-	max-height: 100%;
-	max-width: 100%;
-	border-radius: 8px 8px 0px 0;
-    width: 100%;
+.u-layout-row {
+    flex-direction: row;
+    flex-wrap: wrap;
+    min-height: -webkit-fit-content;
+    min-height: fit-content;
+    max-width: 100%;
 }
 
-.card-heading {
-	font-size: 18px;
-	font-weight: bold;
-	background: var(--bs-white);
+.u-layout-col, .u-layout-row, .u-layout-col > * {
+    display: flex;
 }
 
-.card-text {
-	padding-top: 10px;
-	background: var(--bs-white);
-	font-size: 14px;
-	color: var(--bs-black);
-    overflow: hidden;
-    text-overflow: ellipsis;
-    display: -webkit-box;
-    -webkit-box-orient: vertical;
-    -webkit-line-clamp: 2;
-    line-clamp: 2;
-    max-height: 3.6em;
-    
+.u-layout-row > .u-size-20 {
+    flex: 0 0 33.33333333%;
+    max-width: 33.33333333%;
+    min-width: 33.33333333%;
 }
 
-.card-button {
-	display: flex;
-	justify-content: center;
-	padding: 10px 0;
-	width: 100%;
-	background-color: var(--primary-color);
-	color: var(--bs-white);
-	border-radius: 0 0 8px 8px;
+.u-layout-row > * {
+    max-height: 100%;
+    min-height: -webkit-fit-content;
+    min-height: fit-content;
+}
+
+.u-layout-col {
+    flex-direction: column;
+    min-height: -webkit-fit-content;
+    min-height: fit-content;
+}
+
+.u-layout-col, .u-layout-row {
+    flex: 1 1 auto;
+}
+
+.u-gutter-0 .u-layout .u-layout-cell {
+    border: 0px solid transparent;
+}
+
+section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.u-image:not(.u-hover-box), .u-layout-cell.u-image:not(.u-hover-box) {
+    overflow: visible;
+}
+
+.u-section-4 .u-image-1 {
+    min-height: 574px;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/5b044fa5eb2b504aab436e6a/outdoors-blue-new-downtown-building_1112-963.jpg);
+    background-position: 50% 50%;
+}
+
+.u-section-4 .u-container-layout-1 {
+    padding: 30px 0;
+}
+
+.u-valign-bottom {
+    justify-content: flex-end;
+}
+
+.u-valign-middle, .u-valign-top, .u-valign-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.u-container-layout {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+}
+
+.u-gutter-0 .u-layout .u-layout-cell {
+    border: 0px solid transparent;
+}
+
+.u-section-4 .u-layout-cell-2 {
+    min-height: 370px;
+}
+
+.u-layout-col > .u-size-40 {
+    flex: 40 0 auto;
+}
+
+.u-palette-2-base, .u-body.u-palette-2-base, .u-palette-2-base > .u-container-layout:before, .u-container-style.u-palette-2-base:before, .u-container-layout.u-container-layout.u-palette-2-base:before, .u-table-alt-palette-2-base tr:nth-child(even) {
+    color: #ffffff;
+    background-color: #e3353c;
+}
+
+.u-align-left {
+    text-align: left;
+}
+
+.u-layout-cell {
+    position: relative;
+    display: flex;
+    background-clip: padding-box;
+    background-origin: padding-box;
+}
+
+.u-section-4 .u-container-layout-2 {
+    padding: 30px;
+}
+
+.u-section-4 .u-container-layout-2 {
+    padding: 30px;
+}
+
+.u-container-layout {
+    position: relative;
+    flex: 1;
+    max-width: 100%;
+    transition-duration: inherit;
+}
+
+.u-section-4 .u-text-3 {
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    margin: 29px auto 0 0;
+}
+
+.u-body h1, .u-body h2, .u-body h3, .u-body h4, .u-body h5, .u-body h6 {
+    padding: 0;
+}
+
+.u-text {
+    word-wrap: break-word;
+    position: relative;
+}
+
+.u-inner-container-layout, .u-container-layout > * {
+    position: relative;
+}
+
+.u-text-default {
+    display: table;
+    align-self: flex-start;
+}
+
+.u-section-4 .u-text-4 {
+    margin: 20px 26px 0 0;
+}
+
+.u-text {
+    word-wrap: break-word;
+    position: relative;
+}
+
+.u-section-4 .u-layout-cell-3 {
+    min-height: 372px;
+}
+
+.u-section-4 .u-container-layout-3 {
+    padding: 30px;
+}
+
+.u-section-4 .u-image-2 {
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/e5329f6344605fceab713231/fdf.jpg);
+    background-position: 50% 50%;
+    min-height: 572px;
+}
+
+.u-palette-5-light-2, .u-body.u-palette-5-light-2, .u-palette-5-light-2 > .u-container-layout:before, .u-container-style.u-palette-5-light-2:before, .u-container-layout.u-container-layout.u-palette-5-light-2:before, .u-table-alt-palette-5-light-2 tr:nth-child(even) {
+    color: #111111;
+    background-color: #e0e5eb;
+}
+
+.u-section-4 .u-image-3 {
+    min-height: 493px;
+    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/e801faaaa8045bd28da31c80/modern-skyscrapers-business-district_23-2148836776.jpg?version=);
+    background-position: 50% 50%;
+}
+
+.u-section-4 .u-container-layout-5 {
+    padding: 30px;
+}
+
+.u-section-4 .u-layout-cell-6 {
+    min-height: 451px;
+}
+
+.u-white, .u-body.u-white, .u-white > .u-container-layout:before, .u-container-style.u-white:before, .u-container-layout.u-container-layout.u-white:before, .u-table-alt-white tr:nth-child(even) {
+    color: var(--bs-white);
+    background-color: var(--bs-gray);
+}
+
+.u-layout-col > .u-size-40 {
+    flex: 40 0 auto;
+}
+
+.u-section-4 .u-container-layout-6 {
+    padding: 30px;
+}
+
+/* Partners */
+
+.partners h2 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+}
+
+.partners h4 {
+    color: var(--primary-color);
+}
+
+.partners .card {
+    border-radius: 0px;
+    border-left: 15px solid var(--bs-gray);
+    height: 100%;
+}
+
+.partners .card a {
+    color: var(--primary-color);
     text-decoration: none;
-    margin-top: 15px;
 }
 
-.card-button:hover {
-	text-decoration: none;
-	background-color: var(--bs-gray);
-	color: var(--bs-white);
-}
-
-@-webkit-keyframes pulse {
-	0% {
-		-moz-transform: scale(0.9);
-		-ms-transform: scale(0.9);
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
-
-	70% {
-		-moz-transform: scale(1);
-		-ms-transform: scale(1);
-		-webkit-transform: scale(1);
-		transform: scale(1);
-		box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
-	}
-
-	100% {
-		-moz-transform: scale(0.9);
-		-ms-transform: scale(0.9);
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-		box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
-	}
-}
-
-@keyframes pulse {
-	0% {
-		-moz-transform: scale(0.9);
-		-ms-transform: scale(0.9);
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-	}
-
-	70% {
-		-moz-transform: scale(1);
-		-ms-transform: scale(1);
-		-webkit-transform: scale(1);
-		transform: scale(1);
-		box-shadow: 0 0 0 50px rgba(90, 153, 212, 0);
-	}
-
-	100% {
-		-moz-transform: scale(0.9);
-		-ms-transform: scale(0.9);
-		-webkit-transform: scale(0.9);
-		transform: scale(0.9);
-		box-shadow: 0 0 0 0 rgba(90, 153, 212, 0);
-	}
-}
-
-.about img {
-    width: 100%;
+.partners .card img {
+    width: 150px;
+    padding-bottom: 15px;
 }
 
 /* Footer */
