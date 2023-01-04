@@ -121,11 +121,11 @@ body {
 
 /* About */
 
-.about {
-    /* background: url(../images/sec1-bg.jpg) no-repeat fixed;
-    background-size: cover; */
+/*.about {
+     background: url(../images/sec1-bg.jpg) no-repeat fixed;
+    background-size: cover; 
     padding: 60px 0px;
-}
+}*/
 
 .about h2 {
     color: var(--primary-color);
@@ -189,6 +189,18 @@ body {
 .custom-btn:hover, .custom-btn:focus {
     box-shadow: inset 8.5em 0 0 0 var(--bs-gray);
     border-color: var(--bs-gray);
+}
+
+/* IBCS */
+
+.ibcs h3 {
+    color: var(--primary-color);
+}
+
+/* eCheque */
+
+.echeque h3 {
+    color: var(--primary-color);
 }
 
 /* Projects */
@@ -413,6 +425,10 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 .partners .card a {
     color: var(--primary-color);
     text-decoration: none;
+}
+
+.partners .card .card-header {
+    background-color: #fff;
 }
 
 .partners .card img {
