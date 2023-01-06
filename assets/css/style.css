@@ -149,11 +149,6 @@ body {
     text-align: center;
 }
 
-.nift-etrust {
-    height: 37px;
-    width: 37px;
-}
-
 .services .card {
     position: relative;
     overflow: hidden;
@@ -256,12 +251,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     overflow: visible;
 }
 
-.u-section-4 .u-image-1 {
-    min-height: 574px;
-    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/5b044fa5eb2b504aab436e6a/outdoors-blue-new-downtown-building_1112-963.jpg);
-    background-position: 50% 50%;
-}
-
 .u-section-4 .u-container-layout-1 {
     padding: 30px 0;
 }
@@ -292,11 +281,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .u-layout-col > .u-size-40 {
     flex: 40 0 auto;
-}
-
-.u-palette-2-base, .u-body.u-palette-2-base, .u-palette-2-base > .u-container-layout:before, .u-container-style.u-palette-2-base:before, .u-container-layout.u-container-layout.u-palette-2-base:before, .u-table-alt-palette-2-base tr:nth-child(even) {
-    color: #ffffff;
-    background-color: #e3353c;
 }
 
 .u-align-left {
@@ -357,6 +341,13 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 .u-text {
     word-wrap: break-word;
     position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    /* max-height: 3.6em; */
 }
 
 .u-section-4 .u-layout-cell-3 {
@@ -367,8 +358,19 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     padding: 30px;
 }
 
+.u-section-4 .u-image-1 {
+    min-height: 574px;
+    background-image: url(../images/nadra-verisys.jpg);
+    background-position: 50% 50%;
+}
+
+.u-palette-2-base, .u-body.u-palette-2-base, .u-palette-2-base > .u-container-layout:before, .u-container-style.u-palette-2-base:before, .u-container-layout.u-container-layout.u-palette-2-base:before, .u-table-alt-palette-2-base tr:nth-child(even) {
+    color: #ffffff;
+    background-color: #e3353c;
+}
+
 .u-section-4 .u-image-2 {
-    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/e5329f6344605fceab713231/fdf.jpg);
+    background-image: url(../images/utility-payment-processing.jpg);
     background-position: 50% 50%;
     min-height: 572px;
 }
@@ -380,8 +382,13 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .u-section-4 .u-image-3 {
     min-height: 493px;
-    background-image: url(https://images01.nicepage.com/c461c07a441a5d220e8feb1a/e801faaaa8045bd28da31c80/modern-skyscrapers-business-district_23-2148836776.jpg?version=);
+    background-image: url(../images/bise-automated-results.jpg);
     background-position: 50% 50%;
+}
+
+.u-white, .u-body.u-white, .u-white > .u-container-layout:before, .u-container-style.u-white:before, .u-container-layout.u-container-layout.u-white:before, .u-table-alt-white tr:nth-child(even) {
+    color: var(--bs-white);
+    background-color: var(--bs-gray);
 }
 
 .u-section-4 .u-container-layout-5 {
@@ -390,11 +397,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .u-section-4 .u-layout-cell-6 {
     min-height: 451px;
-}
-
-.u-white, .u-body.u-white, .u-white > .u-container-layout:before, .u-container-style.u-white:before, .u-container-layout.u-container-layout.u-white:before, .u-table-alt-white tr:nth-child(even) {
-    color: var(--bs-white);
-    background-color: var(--bs-gray);
 }
 
 .u-layout-col > .u-size-40 {
