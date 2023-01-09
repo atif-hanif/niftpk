@@ -53,10 +53,10 @@ body {
     color: #fff;
 }
 
-.top-bar {
-    /* border-bottom: 2px solid var(--primary-color); */
+/*.top-bar {
+     border-bottom: 2px solid var(--primary-color); 
     padding: 5px 0px;
-}
+}*/
 
 .bg-black {
     background: var(--bs-black);
@@ -351,7 +351,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 }
 
 .u-section-4 .u-layout-cell-3 {
-    min-height: 372px;
+    min-height: 370px;
 }
 
 .u-section-4 .u-container-layout-3 {
@@ -381,7 +381,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 }
 
 .u-section-4 .u-image-3 {
-    min-height: 493px;
+    min-height: 574px;
     background-image: url(../images/bise-automated-results.jpg);
     background-position: 50% 50%;
 }
@@ -396,7 +396,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 }
 
 .u-section-4 .u-layout-cell-6 {
-    min-height: 451px;
+    min-height: 370px;
 }
 
 .u-layout-col > .u-size-40 {
