@@ -3,7 +3,7 @@
     --bs-black: #000;
     --bs-gray: #333;
     --bs-white: #fff;
-    --font-family: Montserrat !important;
+    --font-family: sans-serif !important;
 }
 
 body {
@@ -68,10 +68,9 @@ body {
 
 /* Mega Menu */
 
-.navbar .megamenu { 
-    padding: 1rem; 
+.navbar .mega-menu { 
+    padding: 2rem; 
 }
-
 
 .megamenu li {
     width: 100%;
@@ -90,7 +89,7 @@ body {
     color: var(--bs-white);
 }
 
-.megamenu a {
+.mega-menu a {
     color: var(--bs-white);
     text-decoration: none;   
 }
@@ -108,7 +107,17 @@ body {
     background-image: url(../images/menu.png);
 }
 
+.ktm-mega-menu {
+    position: static;
+}
+
 /* Home Page */
+
+/* Sllider */
+
+.carousel {
+    height: 80vh;
+}
 
 .carousel-indicators [data-bs-target] {
     background-color: var(--bs-black);
@@ -117,6 +126,10 @@ body {
 .carousel-indicators .active {
     opacity: 1;
     background-color: var(--primary-color);
+}
+
+.animation {
+    animation-delay: 0.5s;
 }
 
 /* About */
