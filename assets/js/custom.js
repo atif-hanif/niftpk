@@ -59,3 +59,52 @@ document.addEventListener("DOMContentLoaded", function() {
 		})
 	}
 });
+
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  	if (window.pageYOffset > sticky) {
+    	header.classList.add("sticky");
+  	} else {
+    	header.classList.remove("sticky");
+  	}
+}
+
+$(window).scroll(function(){
+    if ($(window).scrollTop() >= 100) {
+        $('.main').addClass('fixed-header');
+        $('.main .logo').addClass('visible-title');
+    }
+    else {
+        $('.main').removeClass('fixed-header');
+        $('.main .logo').removeClass('visible-title');
+    }
+});
+
+$(window).scroll(function() {
+    if ($(this).scrollTop()>10)
+    {
+        $('.top-bar').hide();
+		$('#logo').removeClass('d-none');
+		$('#logo').addClass('d-block');
+    }
+    else
+    {
+      	$('.top-bar').show();
+		$('#logo').removeClass('d-block');
+		$('#logo').addClass('d-none');
+    }
+});
+
+$('.slider').css('height', $(window).height()+'px');
+
+$('.about').css('height', $(window).height()+'px');
+
+$('.ibcs').css('height', $(window).height()+'px');
+
+$('.echeque').css('height', $(window).height()+'px');
+
+$('.partners').css('height', $(window).height()+'px');

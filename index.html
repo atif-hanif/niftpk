@@ -16,12 +16,12 @@
 </head>
 
 <body>
-	<header>
-		<div class="top-bar">
+	<header id="myHeader">
+		<div class="top-bar my-auto">
 			<div class="container">
 				<nav class="navbar">
 					<a class="navbar-brand" href="index.html">
-						<img src="assets/images/nift-logo.png" alt="NIFT Logo" class="img-fluid">
+						<img src="assets/images/nift-main-logo.png" alt="NIFT Logo" class="img-fluid">
 					</a>
 					<ul class="nav justify-content-center justify-content-md-end">
 						<li class="nav-item">
@@ -35,45 +35,54 @@
 			</div>
 		</div>
 		<div class="main-menu bg-black navbar-dark">
-			<div class="container">
-				<nav class="navbar navbar-expand-lg">
-					<div class="container-fluid">
+			<div class="">
+				<nav class="navbar navbar-expand-lg main">
+					<div class="container">
+						<a class="navbar-brand d-none" href="index.html" id="logo">
+							<img src="assets/images/nift-logo.png" alt="NIFT Logo" class="img-fluid scroll-logo">
+						</a>
 						<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
 							<span class="navbar-toggler-icon"></span>
 						</button>
-						<div class="collapse navbar-collapse justify-content-center lh-lg" id="main_nav">
+						<div class="collapse navbar-collapse justify-content-center lh-lg" id="collapsibleNavbar">
 							<ul class="navbar-nav p-3 p-md-0">
 								<li class="nav-item">
 									<a class="nav-link active" href="#">Home</a>
 								</li>
 								<li class="nav-item dropdown ktm-mega-menu"> <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Corporate</a>
 									<ul class="dropdown-menu mega-menu">
-										<div class="row g-3">
-											<div class="col-lg-2">
-												<h3 class="heading">Corporate</h3>
-											</div>
-											<div class="col-12 col-lg-4 ps-lg-4">
-												<div class="col-megamenu">
-													<ul class="list-unstyled">
-														<li>
-															<a href="#">About Us</a>
-														</li>
-														<li>
-															<a href="#">Shareholder Banks</a>
-														</li>
-														<li>
-															<a href="#">Board Of Directors</a>
-														</li>
-														<li>
-															<a href="#">Management</a>
-														</li>
-														<li>
-															<a href="#">Business Partners</a>
-														</li>
-														<li>
-															<a href="#">Financials</a>
-														</li>
-													</ul>
+										<div class="container">
+											<div class="row g-3">
+												<div class="col-2">
+													<h3 class="heading">Corporate</h3>
+												</div>
+												<div class="col-10 ps-lg-4">
+													<div class="row">
+														<div class="col-3">
+															<div class="col-megamenu">
+																<ul class="list-unstyled">
+																	<li>
+																		<a href="#">About Us</a>
+																	</li>
+																	<li>
+																		<a href="#">Shareholder Banks</a>
+																	</li>
+																	<li>
+																		<a href="#">Board Of Directors</a>
+																	</li>
+																	<li>
+																		<a href="#">Management</a>
+																	</li>
+																	<li>
+																		<a href="#">Business Partners</a>
+																	</li>
+																	<li>
+																		<a href="#">Financials</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -82,33 +91,39 @@
 								<li class="nav-item dropdown ktm-mega-menu">
 									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">NIFT eClearing</a>
 									<div class="dropdown-menu mega-menu" role="menu">
-										<div class="row g-3">
-											<div class="col-lg-3">
-												<h3 class="heading">NIFT eClearing</h3>
-											</div>
-											<div class="col-12 col-lg-4 ps-lg-4 ms-lg-3">
-												<div class="col-megamenu">
-													<ul class="list-unstyled">
-														<li>
-															<a href="#">Automated Clearing</a>
-														</li>
-														<li>
-															<a href="#">Electronic-Image Based Clearing</a>
-														</li>
-														<li>
-															<a href="#">E-Cheque</a>
-														</li>
-														<li>
-															<a href="#">Products &amp; Services</a>
-														</li>
-														<li>
-															<a href="#">NIFT Processing Centers Contacts</a>
-														</li>
-														<li>
-															<a href="#">E-Pass 2003 Setup</a>
-														</li>
-													</ul>
-												</div> 
+										<div class="container">
+											<div class="row g-3">
+												<div class="col-2">
+													<h3 class="heading">NIFT eClearing</h3>
+												</div>
+												<div class="col-10 ps-lg-5">
+													<div class="row">
+														<div class="col-3">
+															<div class="col-megamenu">
+																<ul class="list-unstyled">
+																	<li>
+																		<a href="#">Automated Clearing</a>
+																	</li>
+																	<li>
+																		<a href="#">Electronic-Image Based Clearing</a>
+																	</li>
+																	<li>
+																		<a href="#">E-Cheque</a>
+																	</li>
+																	<li>
+																		<a href="#">Products &amp; Services</a>
+																	</li>
+																	<li>
+																		<a href="#">NIFT Processing Centers Contacts</a>
+																	</li>
+																	<li>
+																		<a href="#">E-Pass 2003 Setup</a>
+																	</li>
+																</ul>
+															</div> 
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -116,36 +131,42 @@
 								<li class="nav-item dropdown ktm-mega-menu">
 									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">NIFT ePay</a>
 									<div class="dropdown-menu mega-menu" role="menu">
-										<div class="row g-3">
-											<div class="col-lg-4">
-												<h3 class="heading">NIFT ePay</h3>
-											</div>
-											<div class="col-12 col-lg-4 ms-lg-5 ps-lg-5">
-												<div class="col-megamenu">
-													<ul class="list-unstyled">
-														<li>
-															<a href="#">About Us</a>
-														</li>
-														<li>
-															<a href="#">Services</a>
-														</li>
-														<li>
-															<a href="#">Clients</a>
-														</li>
-														<li>
-															<a href="#">Newsroom</a>
-														</li>
-														<li>
-															<a href="#">Videos</a>
-														</li>
-														<li>
-															<a href="#">Merchant Onboarding Request</a>
-														</li>
-														<li>
-															<a href="#">Contact</a>
-														</li>
-													</ul>
-												</div> 
+										<div class="container">
+											<div class="row g-3">
+												<div class="col-2">
+													<h3 class="heading">NIFT ePay</h3>
+												</div>
+												<div class="col-10">
+													<div class="row">
+														<div class="col-3">
+															<div class="col-megamenu">
+																<ul class="list-unstyled">
+																	<li>
+																		<a href="#">About Us</a>
+																	</li>
+																	<li>
+																		<a href="#">Services</a>
+																	</li>
+																	<li>
+																		<a href="#">Clients</a>
+																	</li>
+																	<li>
+																		<a href="#">Newsroom</a>
+																	</li>
+																	<li>
+																		<a href="#">Videos</a>
+																	</li>
+																	<li>
+																		<a href="#">Merchant Onboarding Request</a>
+																	</li>
+																	<li>
+																		<a href="#">Contact</a>
+																	</li>
+																</ul>
+															</div> 
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -153,104 +174,112 @@
 								<li class="nav-item dropdown ktm-mega-menu">
 									<a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">NIFT eTRUST</a>
 									<div class="dropdown-menu mega-menu">
-										<div class="row g-3">
-											<div class="col-lg-2">
-												<h3 class="heading">NIFT eTRUST</h3>
-											</div>
-											<div class="col-12 col-lg-2">
-												<div class="col-megamenu">
-													<ul class="list-unstyled">
-														<li> <a href="#">About NIFT eTRUST</a> </li>
-													</ul>
+										<div class="container">
+											<div class="row g-3">
+												<div class="col-2">
+													<h3 class="heading">NIFT eTRUST</h3>
 												</div>
-											</div>
-											<div class="col-12 col-lg-2">
-												<div class="col-megamenu">
-													<h6 class="heading">
-														<a href="#">Digital Identity</a>
-													</h6>
-													<ul class="list-unstyled">
-														<li>
-															<a href="#">Digital Identity</a>
-														</li>
-														<li>
-															<a href="#">Managed PKI Service</a>
-														</li>
-														<li>
-															<a href="#">DigiCert Certificates for email security</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-											<div class="col-12 col-lg-2">
-												<div class="col-megamenu">
-													<h6 class="heading">
-														<a href="#">SSL Certificate</a>
-													</h6>
-													<ul class="list-unstyled">
-														<li>
-															<a href="#">Pro TLS/SSL Certificates</a>
-														</li>
-														<li>
-															<a href="#">Business TLS/SSL Certificates</a>
-														</li>
-														<li>
-															<a href="#">Basic TLS/SSL Certificates</a>
-														</li>
-														<li>
-															<a href="#">Wildcard Certificates</a>
-														</li>
-														<li>
-															<a href="#">Multi-Domain SSL Certificates</a>
-														</li>
-														<li>
-															<a href="#">DigiCert Verified Mark Certificates</a>
-														</li>
-														<li>
-															<a href="#">Code Signing Certificates</a>
-														</li>
-														<li>
-															<a href="#">GeoTrust TLS/SSL Certificates</a>
-														</li>
-														<li>
-															<a href="#">RapidSSL TLS/SSL Certificates</a>
-														</li>
-														<li>
-															<a href="#">Compare Symantec SSL Certificates</a>
-														</li>
-														<li>
-															<a href="#">SSL Toolbox</a> </li>
-													</ul>
-												</div>
-											</div>
-											<div class="col-12 col-lg-2">
-												<div class="col-megamenu">
-													<h6 class="heading">
-														<a href="#">Network &amp; App Security</a>
-													</h6>
-													<ul class="list-unstyled">
-														<li>
-															<a href="#">Penetration Testing</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-											<div class="col-12 col-lg-2">
-												<div class="col-megamenu">
-													<h6 class="heading">
-														<a href="#">Digital Signature Certificate</a>
-													</h6>
-													<ul class="list-unstyled">
-														<li>
-															<a href="#">FBR Digital ID</a>
-														</li>
-														<li>
-															<a href="#">CMPAK Req Form</a>
-														</li>
-														<li>
-															<a href="#">E-Pass 2003 Setup</a>
-														</li>
-													</ul>
+												<div class="col-10">
+													<div class="row">
+														<div class="col">
+															<div class="col-megamenu">
+																<ul class="list-unstyled">
+																	<li>
+																		<a href="#">About NIFT eTRUST</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="col">
+															<div class="col-megamenu">
+																<h6 class="heading">
+																	<a href="#">Digital Identity</a>
+																</h6>
+																<ul class="list-unstyled">
+																	<li>
+																		<a href="#">Digital Identity</a>
+																	</li>
+																	<li>
+																		<a href="#">Managed PKI Service</a>
+																	</li>
+																	<li>
+																		<a href="#">DigiCert Certificates for email security</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="col">
+															<div class="col-megamenu">
+																<h6 class="heading">
+																	<a href="#">SSL Certificate</a>
+																</h6>
+																<ul class="list-unstyled">
+																	<li>
+																		<a href="#">Pro TLS/SSL Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">Business TLS/SSL Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">Basic TLS/SSL Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">Wildcard Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">Multi-Domain SSL Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">DigiCert Verified Mark Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">Code Signing Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">GeoTrust TLS/SSL Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">RapidSSL TLS/SSL Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">Compare Symantec SSL Certificates</a>
+																	</li>
+																	<li>
+																		<a href="#">SSL Toolbox</a> </li>
+																</ul>
+															</div>
+														</div>
+														<div class="col">
+															<div class="col-megamenu">
+																<h6 class="heading">
+																	<a href="#">Network &amp; App Security</a>
+																</h6>
+																<ul class="list-unstyled">
+																	<li>
+																		<a href="#">Penetration Testing</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+														<div class="col">
+															<div class="col-megamenu">
+																<h6 class="heading">
+																	<a href="#">Digital Signature Certificate</a>
+																</h6>
+																<ul class="list-unstyled">
+																	<li>
+																		<a href="#">FBR Digital ID</a>
+																	</li>
+																	<li>
+																		<a href="#">CMPAK Req Form</a>
+																	</li>
+																	<li>
+																		<a href="#">E-Pass 2003 Setup</a>
+																	</li>
+																</ul>
+															</div>
+														</div>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -259,21 +288,27 @@
 								<li class="nav-item dropdown ktm-mega-menu">
 									<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">ISM</a>
 									<div class="dropdown-menu mega-menu" role="menu">
-										<div class="row g-3">
-											<div class="col-lg-7">
-												<h3 class="heading">NIFT ePay</h3>
-											</div>
-											<div class="col-12 col-lg-4 ps-lg-5">
-												<div class="col-megamenu">
-													<ul class="list-unstyled">
-														<li>
-															<a href="#">ISM MANAGEMENT</a>
-														</li>
-														<li>
-															<a href="#">ISM OFFERINGS</a>
-														</li>
-													</ul>
-												</div> 
+										<div class="container">
+											<div class="row g-3">
+												<div class="col-2">
+													<h3 class="heading">NIFT ePay</h3>
+												</div>
+												<div class="col-10">
+													<div class="row">
+														<div class="col-3">
+															<div class="col-megamenu">
+																<ul class="list-unstyled">
+																	<li>
+																		<a href="#">ISM MANAGEMENT</a>
+																	</li>
+																	<li>
+																		<a href="#">ISM OFFERINGS</a>
+																	</li>
+																</ul>
+															</div> 
+														</div>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -295,275 +330,279 @@
 		</div>
 	</header>
 
-	<section class="slider">
-		<div id="demo" class="carousel slide slider" data-bs-ride="carousel" data-bs-interval="4000">
-			<!-- Indicators/dots -->
-			<div class="carousel-indicators">
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-				<!-- <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
-				<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button> -->
-			</div>
-			<!-- The slideshow/carousel -->
-			<div class="carousel-inner">
-				<div class="carousel-item active">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 my-auto animated fadeInLeft animation">
-								<img src="assets/images/nift-eclearing-logo.png" alt="NIFT eClearing Logo" class="img-fluid">
-								<h4 class="pt-3 mb-0">Automated Clearing services were introduced by NIFT in 1996, at a single center in Karachi. Growing organically, NIFT expanded services to all major cities in Pakistan, from Karachi to Islamabad and beyond.</h4>
-								<!-- <button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button> -->
-							</div>
-							<div class="col-lg-6 animated fadeInRight animation">
-								<img src="assets/images/nift-eclearing.png" alt="NIFT ePay" class="img-fluid d-block mx-auto">
-							</div>
-						</div>
-					</div>
+	<div class="content">
+		<section class="slider">
+			<div id="demo" class="carousel slide slider" data-bs-ride="carousel" data-bs-interval="4000">
+				<!-- Indicators/dots -->
+				<div class="carousel-indicators">
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+					<!-- <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+					<button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button> -->
 				</div>
-				<div class="carousel-item">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 animated fadeInLeft animation">
-								<img src="assets/images/nift-epay-logo.png" alt="NIFT ePay Logo" class="img-fluid">
-								<h4 class="pt-3 mb-0">NIFT ePay is providing an agnostic/adaptable payments platform – connecting all digital players through contextual digital payments. The payment gateway is accessible for all sizes of entities for convenient transactions via secure and interoperable ecosystem. All payments instruments and methods will be available in future to resolve the limitation of data driven payment digitalization.</h4>
-								<!-- <button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button> -->
-							</div>
-							<div class="col-lg-6 my-auto animated fadeInRight animation">
-								<img src="assets/images/nift-epay.png" alt="NIFT ePay" class="img-fluid d-block mx-auto">
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="carousel-item">
-					<div class="container">
-						<div class="row">
-							<div class="col-lg-6 animated fadeInLeft animation my-auto">
-								<img src="assets/images/nift-etrust-logo.png" alt="NIFT eTrust Logo" class="img-fluid">
-								<h4 class="pt-3 mb-0">NIFT’s most extensive and technologically advanced venture, NIFTeTRUST ensures the safety of commerce and communications over the internet.</h4>
-								<!-- <button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button> -->
-							</div>
-							<div class="col-lg-6 my-auto animated fadeInRight animation">
-								<img src="assets/images/nift-etrust.png" alt="NIFT ePay" class="img-fluid d-block mx-auto">
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="about my-3">
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-6 wow animate__animated animate__fadeInLeft">
-					<img src="assets/images/about-us.jpg" alt="NIFT ePay" class="img-fluid d-block mx-auto">
-				</div>
-				<div class="col-lg-6 wow animate__animated animate__fadeInRight my-auto">
-					<h5>Welcome to the world of NIFT</h5>
-					<h4>National Institutional Facilitation Technologies (Pvt.) Limited. NIFT is the only Automated Cheque Clearing House and the prominent Payment System Operator in Pakistan.</h4>
-					<button type="button" class="btn btn-danger discover-btn">Discover More <i class="fa-solid fa-arrow-right"></i></button>
-				</div>
-				
-			</div>
-		</div>
-	</section>
-
-	<!-- <section class="services py-5">
-		<div class="container">
-			<div class="row justify-content-center">
-				<div class="col-lg-8 wow animate__animated animate__fadeInDown">
-					<h2>Explore our range of services</h2>
-				</div>
-			</div>
-			<div class="row mt-4">
-				<div class="col-12" data-wow-delay="0.2s">
-					<div class="card services-card">
-						<div class="card-body">
+				<!-- The slideshow/carousel -->
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<div class="container">
 							<div class="row">
-								<div class="col-lg-6 my-auto wow animate__animated animate__fadeInLeft">
+								<div class="col-lg-6 my-auto animated fadeInLeft animation">
+									<img src="assets/images/nift-eclearing-logo.png" alt="NIFT eClearing Logo" class="img-fluid">
+									<h4 class="pt-3 mb-0">Automated Clearing services were introduced by NIFT in 1996, at a single center in Karachi. Growing organically, NIFT expanded services to all major cities in Pakistan, from Karachi to Islamabad and beyond.</h4>
+									<!-- <button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button> -->
+								</div>
+								<div class="col-lg-6 animated fadeInRight animation">
 									<img src="assets/images/nift-eclearing.png" alt="NIFT ePay" class="img-fluid d-block mx-auto">
 								</div>
-								<div class="col-lg-6 wow animate__animated animate__fadeInRight">
-									<img src="assets/images/nift-eclearing-logo.png" alt="NIFT eClearing Logo" class="img-fluid">
-									<p class="pt-3 mb-0">Automated Clearing services were introduced by NIFT in 1996, at a single center in Karachi. Growing organically, NIFT expanded services to all major cities in Pakistan, from Karachi to Islamabad and beyond.</p>
-									<button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button>
-								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 mt-4" data-wow-delay="0.2s">
-					<div class="card">
-						<div class="card-body">
+					<div class="carousel-item">
+						<div class="container">
 							<div class="row">
-								<div class="col-lg-6 text-end wow animate__animated animate__fadeInLeft">
+								<div class="col-lg-6 animated fadeInLeft animation">
 									<img src="assets/images/nift-epay-logo.png" alt="NIFT ePay Logo" class="img-fluid">
-									<p class="pt-3 mb-0">NIFT ePay is providing an agnostic/adaptable payments platform – connecting all digital players through contextual digital payments. The payment gateway is accessible for all sizes of entities for convenient transactions via secure and interoperable ecosystem. All payments instruments and methods will be available in future to resolve the limitation of data driven payment digitalization.</p>
-									<button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button>
+									<h4 class="pt-3 mb-0">NIFT ePay is providing an agnostic/adaptable payments platform – connecting all digital players through contextual digital payments. The payment gateway is accessible for all sizes of entities for convenient transactions via secure and interoperable ecosystem. All payments instruments and methods will be available in future to resolve the limitation of data driven payment digitalization.</h4>
+									<!-- <button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button> -->
 								</div>
-								<div class="col-lg-6 my-auto wow animate__animated animate__fadeInRight">
+								<div class="col-lg-6 my-auto animated fadeInRight animation">
 									<img src="assets/images/nift-epay.png" alt="NIFT ePay" class="img-fluid d-block mx-auto">
 								</div>
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="col-12 mt-4" data-wow-delay="0.2s">
-					<div class="card">
-						<div class="card-body">
+					<div class="carousel-item">
+						<div class="container">
 							<div class="row">
-								<div class="col-lg-6 wow animate__animated animate__fadeInLeft">
+								<div class="col-lg-6 animated fadeInLeft animation my-auto">
+									<img src="assets/images/nift-etrust-logo.png" alt="NIFT eTrust Logo" class="img-fluid">
+									<h4 class="pt-3 mb-0">NIFT’s most extensive and technologically advanced venture, NIFTeTRUST ensures the safety of commerce and communications over the internet.</h4>
+									<!-- <button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button> -->
+								</div>
+								<div class="col-lg-6 my-auto animated fadeInRight animation">
 									<img src="assets/images/nift-etrust.png" alt="NIFT ePay" class="img-fluid d-block mx-auto">
 								</div>
-								<div class="col-lg-6 my-auto wow animate__animated animate__fadeInRight">
-									<img src="assets/images/nift-etrust-logo.png" alt="NIFT eTrust Logo" class="img-fluid">
-									<p class="pt-3 mb-0">NIFT’s most extensive and technologically advanced venture, NIFTeTRUST ensures the safety of commerce and communications over the internet.</p>
-									<button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button>
-								</div>
 							</div>
 						</div>
+						
 					</div>
 				</div>
 			</div>
-		</div>
-	</section> -->
-
-	<section class="ibcs my-5">
-		<div class="container">
-			<div class="row" >
-				<div class="col-lg-6 my-auto wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
-					<h3>Electronic-Image Based Clearing (IBCS)</h3>
-					<p>IBCS essentially requires conversion of the physical cheque in an electronic form and the converted electronic form of document moves forward as an authentic document for processing including fate decision making. NIFT has been working along with SBP and PBA member banks to prepare processes and guidelines regarding the IBCS. All stakeholders understand that it is now time to leapfrog into this direction and bring changes through technological innovation by replacing the old process of financial instrument movement and handling by implementing Image Based Clearing.</p>
-				</div>
-				<div class="col-lg-6 text-center wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
-					<video width="100%" height="100%" playsinline autoplay muted loop>
-						<source src="assets/videos/ibcs.mp4" type="video/mp4">
-					</video>
-				</div>
-			</div>
-		</div>
-	</section>
-
-	<section class="echeque my-5">
-		<div class="container">
-			<div class="row wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
-				<div class="col-lg-6 text-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
-					<video width="100%" height="100%" playsinline autoplay muted loop>
-						<source src="assets/videos/echeque.mp4" type="video/mp4">
-					</video>
-				</div>
-				<div class="col-lg-6 my-auto wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
-					<h3>eCheque</h3>
-					<p>NIFT eCheque is the digital version of conventional paper cheques for Banking Customers. eCheque is the digital issuance, lodgment and clearing of an electronic cheque through Bank’s digital channel that carries all the paper cheque requirements. On top of all existing offering of paper cheque, an eCheque offers enhanced convenience and security since it will be digitally signed by Payer bank. After a verification process, the echeque may be added in the Electronic-Image Based Clearing System (IBCS) cheque clearing cycle for quicker clearing and settlement. </p>
+		</section>
+	
+		<section class="about my-3">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6 wow animate__animated animate__fadeInLeft">
+						<img src="assets/images/about-us.jpg" alt="NIFT ePay" class="img-fluid d-block mx-auto">
+					</div>
+					<div class="col-lg-6 wow animate__animated animate__fadeInRight my-auto">
+						<h5>Welcome to the world of NIFT</h5>
+						<h4>National Institutional Facilitation Technologies (Pvt.) Limited. NIFT is the only Automated Cheque Clearing House and the prominent Payment System Operator in Pakistan.</h4>
+						<button type="button" class="btn btn-danger discover-btn">Discover More <i class="fa-solid fa-arrow-right"></i></button>
+					</div>
+					
 				</div>
 			</div>
-		</div>
-	</section>
-
-	<section class="projects my-5 u-align-center u-clearfix u-palette-1-base u-section-4">
-		<div class="container">
-			<div class="row justify-content-center wow animate__animated animate__fadeInDown" data-wow-delay="0.2s">
-				<div class="row justify-content-center text-center">
-					<div class="col-lg-8">
-						<h2>Projects</h2>
-						<p>Safeguarding your children’s education, your investments and your future, NIFT systems move the Country forward. Explore turn-key national projects we have executed.</p>
-						<button type="button" class="btn btn-danger custom-btn">View All <i class="fa-solid fa-arrow-right"></i></button>
+		</section>
+	
+		<!-- <section class="services py-5">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-lg-8 wow animate__animated animate__fadeInDown">
+						<h2>Explore our range of services</h2>
 					</div>
 				</div>
-			</div>
-			<div class="row mt-5 wow animate__animated animate__fadeInUp">
-				<div class="u-gutter-0 u-layout">
-					<div class="u-layout-row">
-						<div class="u-size-20 u-size-30-md">
-							<div class="u-layout-col">
-								<div class="u-align-left u-container-style u-layout-cell u-left-cell u-palette-2-base u-shape-rectangle u-size-40 u-layout-cell-2">
-									<div class="u-container-layout u-container-layout-2">
-										<h3 class="u-text u-text-default u-text-3">Citizen’s Database (VeriSys); NADRA – 2000 to 2001</h3>
-										<p class="u-text u-text-4">NIFT’s wholly owned subsidiary, ISM executed one of the largest image archiving projects in the world. ISM image-archived and tagged 61.58 million national census forms to establish the first citizen data warehouse in Pakistan by NADRA.</p>
+				<div class="row mt-4">
+					<div class="col-12" data-wow-delay="0.2s">
+						<div class="card services-card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-lg-6 my-auto wow animate__animated animate__fadeInLeft">
+										<img src="assets/images/nift-eclearing.png" alt="NIFT ePay" class="img-fluid d-block mx-auto">
+									</div>
+									<div class="col-lg-6 wow animate__animated animate__fadeInRight">
+										<img src="assets/images/nift-eclearing-logo.png" alt="NIFT eClearing Logo" class="img-fluid">
+										<p class="pt-3 mb-0">Automated Clearing services were introduced by NIFT in 1996, at a single center in Karachi. Growing organically, NIFT expanded services to all major cities in Pakistan, from Karachi to Islamabad and beyond.</p>
+										<button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button>
 									</div>
 								</div>
-								<div class="u-container-style u-image u-layout-cell u-left-cell u-size-20 u-image-1" data-image-width="626" data-image-height="937">
-									<div class="u-container-layout u-valign-bottom u-container-layout-1"></div>
+							</div>
+						</div>
+					</div>
+					<div class="col-12 mt-4" data-wow-delay="0.2s">
+						<div class="card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-lg-6 text-end wow animate__animated animate__fadeInLeft">
+										<img src="assets/images/nift-epay-logo.png" alt="NIFT ePay Logo" class="img-fluid">
+										<p class="pt-3 mb-0">NIFT ePay is providing an agnostic/adaptable payments platform – connecting all digital players through contextual digital payments. The payment gateway is accessible for all sizes of entities for convenient transactions via secure and interoperable ecosystem. All payments instruments and methods will be available in future to resolve the limitation of data driven payment digitalization.</p>
+										<button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button>
+									</div>
+									<div class="col-lg-6 my-auto wow animate__animated animate__fadeInRight">
+										<img src="assets/images/nift-epay.png" alt="NIFT ePay" class="img-fluid d-block mx-auto">
+									</div>
 								</div>
 							</div>
 						</div>
-						<div class="u-size-20 u-size-30-md">
-							<div class="u-layout-col">
-								<div class="u-align-left u-container-style u-layout-cell u-palette-5-light-2 u-size-40 u-layout-cell-3">
-									<div class="u-container-layout u-container-layout-3">
-										<h3 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-1-base u-text-5">Utility Payment Processing – 2001 till date</h3>
-										<p class="u-text u-text-palette-1-base u-text-6">NIFT provides revenue automation services through scanning and data entry. We help process utility bill stubs for reconciliation and settlement for SNGPL, PTCL, K-Electric & KWSB.</p>
+					</div>
+					<div class="col-12 mt-4" data-wow-delay="0.2s">
+						<div class="card">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-lg-6 wow animate__animated animate__fadeInLeft">
+										<img src="assets/images/nift-etrust.png" alt="NIFT ePay" class="img-fluid d-block mx-auto">
 									</div>
-								</div>
-								<div class="u-container-style u-image u-layout-cell u-size-20 u-image-2" data-image-width="764" data-image-height="956">
-									<div class="u-container-layout u-container-layout-4"></div>
-								</div>
-							</div>
-						</div>
-						<div class="u-size-20 u-size-60-md">
-							<div class="u-layout-col">
-								<div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-40 u-white u-layout-cell-6">
-									<div class="u-container-layout u-valign-middle u-container-layout-6">
-										<h3 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-7">BISE Automated Results Compilation Project – 2012 – Till Date Results Tabulation</h3>
-										<p class="u-text u-text-8">NIFT has automated the results compilation process for all ‘9’ of the Boards of Intermediate and Secondary Education, Punjab. The project started in early 2012 and NIFT has successfully completed eight cycles of Results compilation for Intermediate as well Matriculation Annual and Supplementary Examinations. Our work involved printing, scanning, data extraction through ICR/OMR, data entry, quality assurance, results compilation and reporting.</p>
+									<div class="col-lg-6 my-auto wow animate__animated animate__fadeInRight">
+										<img src="assets/images/nift-etrust-logo.png" alt="NIFT eTrust Logo" class="img-fluid">
+										<p class="pt-3 mb-0">NIFT’s most extensive and technologically advanced venture, NIFTeTRUST ensures the safety of commerce and communications over the internet.</p>
+										<button type="button" class="btn btn-danger custom-btn mt-3">Know More <i class="fa-solid fa-arrow-right"></i></button>
 									</div>
-								</div>
-								<div class="u-container-style u-image u-layout-cell u-right-cell u-size-20 u-image-3" data-image-width="352" data-image-height="626">
-									<div class="u-container-layout u-container-layout-5"></div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-		</div>
-	</section>
+		</section> -->
+	
+		<section class="ibcs my-5">
+			<div class="container">
+				<div class="row" >
+					<div class="col-lg-6 my-auto wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
+						<h3>Electronic-Image Based Clearing (IBCS)</h3>
+						<p>IBCS essentially requires conversion of the physical cheque in an electronic form and the converted electronic form of document moves forward as an authentic document for processing including fate decision making. NIFT has been working along with SBP and PBA member banks to prepare processes and guidelines regarding the IBCS. All stakeholders understand that it is now time to leapfrog into this direction and bring changes through technological innovation by replacing the old process of financial instrument movement and handling by implementing Image Based Clearing.</p>
+					</div>
+					<div class="col-lg-6 text-center wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
+						<video width="100%" height="100%" playsinline autoplay muted loop>
+							<source src="assets/videos/ibcs.mp4" type="video/mp4">
+						</video>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<section class="echeque my-5">
+			<div class="container">
+				<div class="row wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
+					<div class="col-lg-6 text-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
+						<video width="100%" height="100%" playsinline autoplay muted loop>
+							<source src="assets/videos/echeque.mp4" type="video/mp4">
+						</video>
+					</div>
+					<div class="col-lg-6 my-auto wow animate__animated animate__fadeInRight" data-wow-delay="0.2s">
+						<h3>eCheque</h3>
+						<p>NIFT eCheque is the digital version of conventional paper cheques for Banking Customers. eCheque is the digital issuance, lodgment and clearing of an electronic cheque through Bank’s digital channel that carries all the paper cheque requirements. On top of all existing offering of paper cheque, an eCheque offers enhanced convenience and security since it will be digitally signed by Payer bank. After a verification process, the echeque may be added in the Electronic-Image Based Clearing System (IBCS) cheque clearing cycle for quicker clearing and settlement. </p>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<section class="projects my-5 u-align-center u-clearfix u-palette-1-base u-section-4">
+			<div class="container">
+				<div class="row justify-content-center wow animate__animated animate__fadeInDown" data-wow-delay="0.2s">
+					<div class="row justify-content-center text-center">
+						<div class="col-lg-8">
+							<h2>Projects</h2>
+							<p>Safeguarding your children’s education, your investments and your future, NIFT systems move the Country forward. Explore turn-key national projects we have executed.</p>
+							<button type="button" class="btn btn-danger custom-btn">View All <i class="fa-solid fa-arrow-right"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5 wow animate__animated animate__fadeInUp">
+					<div class="u-gutter-0 u-layout">
+						<div class="u-layout-row">
+							<div class="u-size-20 u-size-30-md">
+								<div class="u-layout-col">
+									<div class="u-align-left u-container-style u-layout-cell u-left-cell u-palette-2-base u-shape-rectangle u-size-40 u-layout-cell-2">
+										<div class="u-container-layout u-container-layout-2">
+											<h3 class="u-text u-text-default u-text-3">Citizen’s Database (VeriSys); NADRA – 2000 to 2001</h3>
+											<p class="u-text u-text-4">NIFT’s wholly owned subsidiary, ISM executed one of the largest image archiving projects in the world. ISM image-archived and tagged 61.58 million national census forms to establish the first citizen data warehouse in Pakistan by NADRA.</p>
+										</div>
+									</div>
+									<div class="u-container-style u-image u-layout-cell u-left-cell u-size-20 u-image-1" data-image-width="626" data-image-height="937">
+										<div class="u-container-layout u-valign-bottom u-container-layout-1"></div>
+									</div>
+								</div>
+							</div>
+							<div class="u-size-20 u-size-30-md">
+								<div class="u-layout-col">
+									<div class="u-align-left u-container-style u-layout-cell u-palette-5-light-2 u-size-40 u-layout-cell-3">
+										<div class="u-container-layout u-container-layout-3">
+											<h3 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-1-base u-text-5">Utility Payment Processing – 2001 till date</h3>
+											<p class="u-text u-text-palette-1-base u-text-6">NIFT provides revenue automation services through scanning and data entry. We help process utility bill stubs for reconciliation and settlement for SNGPL, PTCL, K-Electric & KWSB.</p>
+										</div>
+									</div>
+									<div class="u-container-style u-image u-layout-cell u-size-20 u-image-2" data-image-width="764" data-image-height="956">
+										<div class="u-container-layout u-container-layout-4"></div>
+									</div>
+								</div>
+							</div>
+							<div class="u-size-20 u-size-60-md">
+								<div class="u-layout-col">
+									<div class="u-align-left u-container-style u-layout-cell u-right-cell u-size-40 u-white u-layout-cell-6">
+										<div class="u-container-layout u-valign-middle u-container-layout-6">
+											<h3 class="u-custom-font u-font-raleway u-text u-text-default u-text-palette-2-base u-text-7">BISE Automated Results Compilation Project – 2012 – Till Date Results Tabulation</h3>
+											<p class="u-text u-text-8">NIFT has automated the results compilation process for all ‘9’ of the Boards of Intermediate and Secondary Education, Punjab. The project started in early 2012 and NIFT has successfully completed eight cycles of Results compilation for Intermediate as well Matriculation Annual and Supplementary Examinations. Our work involved printing, scanning, data extraction through ICR/OMR, data entry, quality assurance, results compilation and reporting.</p>
+										</div>
+									</div>
+									<div class="u-container-style u-image u-layout-cell u-right-cell u-size-20 u-image-3" data-image-width="352" data-image-height="626">
+										<div class="u-container-layout u-container-layout-5"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<section class="partners my-5">
+			<div class="container">
+				<div class="row justify-content-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
+					<div class="row justify-content-center text-center">
+						<div class="col-lg-8">
+							<h2>Business Partners</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row mt-5 wow animate__animated animate__fadeInRight">
+					<div class="col-md-4">
+						<div class="card">
+							<div class="card-body">
+								<img src="assets/images/digicert-logo.png" alt="DigiCert Logo" class="img-fluid">
+								<h4>DigiCert Inc.</h4>
+								<p>DigiCert is the world’s premier provider of high-assurance digital certificates, providing trusted SSL, private and managed PKI deployments, and device certificates for the emerging IoT market. Since its founding almost fifteen years ago, they’ve been driven by the idea of finding a better way, a better way to provide authentication on the internet, a better way to tailor solutions to its customer’s needs.</p>
+								<p>To learn more visit: <a href="https://www.digicert.com/" target="_blank">Digicert</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mt-3 mt-md-0">
+						<div class="card">
+							<div class="card-body">
+								<img src="assets/images/feitian-logo.png" alt="Feitian Logo" class="img-fluid">
+								<h4>Feitian Technologies</h4>
+								<p>Established in 1998, Feitian Technologies shine as innovators in security technologies and applications. Feitian’s major business covers Software Protection, Strong Authentication, Smartcard COS and Peripherals. They focus on smartcard and chip-operating based systems. Feitian cooperates closely with global leading smartcard chip providers, serves customers around the world with cutting edge and low-cost technologies. Specialties include: OATH OTP Solutions, Strong Authentication, Smartcard COS and Peripherals, and PKI Solutions.</p>
+								<p>To learn more visit: <a href="https://www.ftsafe.com/" target="_blank">Feitian Technologies</a></p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 mt-3 mt-md-0">
+						<div class="card">
+							<div class="card-body">
+								<img src="assets/images/tps-logo.png" alt="TPS Logo" class="img-fluid">
+								<h4>TPS</h4>
+								<p>TPS is a leading provider of cards and payment solutions, powering digital payments for various commercial and central banks, telecoms, processors and financial institutions. With our diverse experiences in cashless payment systems, we offer real-time payment capabilities enabling our clients to minimize time-to- market, unlock new revenue streams, reduce risks and control costs.We are a trusted payment solution provider for more than 20 years. Our cutting-edge, future-proof payment solutions are synonymous with trust, reliability and scalability.</p>
+								<p>To learn more visit: <a href="https://www.tpsworldwide.com/" target="_blank">TPS</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
 
-	<section class="partners my-5">
-		<div class="container">
-			<div class="row justify-content-center wow animate__animated animate__fadeInLeft" data-wow-delay="0.2s">
-				<div class="row justify-content-center text-center">
-					<div class="col-lg-8">
-						<h2>Business Partners</h2>
-					</div>
-				</div>
-			</div>
-			<div class="row mt-5 wow animate__animated animate__fadeInRight">
-				<div class="col-md-4">
-					<div class="card">
-						<div class="card-body">
-							<img src="assets/images/digicert-logo.png" alt="DigiCert Logo" class="img-fluid">
-							<h4>DigiCert Inc.</h4>
-							<p>DigiCert is the world’s premier provider of high-assurance digital certificates, providing trusted SSL, private and managed PKI deployments, and device certificates for the emerging IoT market. Since its founding almost fifteen years ago, they’ve been driven by the idea of finding a better way, a better way to provide authentication on the internet, a better way to tailor solutions to its customer’s needs.</p>
-							<p>To learn more visit: <a href="https://www.digicert.com/" target="_blank">Digicert</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 mt-3 mt-md-0">
-					<div class="card">
-						<div class="card-body">
-							<img src="assets/images/feitian-logo.png" alt="Feitian Logo" class="img-fluid">
-							<h4>Feitian Technologies</h4>
-							<p>Established in 1998, Feitian Technologies shine as innovators in security technologies and applications. Feitian’s major business covers Software Protection, Strong Authentication, Smartcard COS and Peripherals. They focus on smartcard and chip-operating based systems. Feitian cooperates closely with global leading smartcard chip providers, serves customers around the world with cutting edge and low-cost technologies. Specialties include: OATH OTP Solutions, Strong Authentication, Smartcard COS and Peripherals, and PKI Solutions.</p>
-							<p>To learn more visit: <a href="https://www.ftsafe.com/" target="_blank">Feitian Technologies</a></p>
-						</div>
-					</div>
-				</div>
-				<div class="col-md-4 mt-3 mt-md-0">
-					<div class="card">
-						<div class="card-body">
-							<img src="assets/images/tps-logo.png" alt="TPS Logo" class="img-fluid">
-							<h4>TPS</h4>
-							<p>TPS is a leading provider of cards and payment solutions, powering digital payments for various commercial and central banks, telecoms, processors and financial institutions. With our diverse experiences in cashless payment systems, we offer real-time payment capabilities enabling our clients to minimize time-to- market, unlock new revenue streams, reduce risks and control costs.We are a trusted payment solution provider for more than 20 years. Our cutting-edge, future-proof payment solutions are synonymous with trust, reliability and scalability.</p>
-							<p>To learn more visit: <a href="https://www.tpsworldwide.com/" target="_blank">TPS</a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
+	
 
 	<footer>
 		<div class="container">
