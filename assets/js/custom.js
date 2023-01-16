@@ -99,12 +99,12 @@ $(window).scroll(function() {
     }
 });
 
-$('.slider').css('height', $(window).height()+'px');
+// $('.slider').css('height', $(window).height()+'px');
 
-$('.about').css('height', $(window).height()+'px');
+// $('.about').css('height', $(window).height()+'px');
 
-$('.ibcs').css('height', $(window).height()+'px');
+// $('.ibcs').css('height', $(window).height()+'px');
 
-$('.echeque').css('height', $(window).height()+'px');
+// $('.echeque').css('height', $(window).height()+'px');
 
-$('.partners').css('height', $(window).height()+'px');
+// $('.partners').css('height', $(window).height()+'px');
