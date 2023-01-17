@@ -8,8 +8,8 @@
 
 body {
     font-family: var(--font-family);
+    background-color: #fff;
 }
-
 
 /* Header */
 
@@ -549,6 +549,151 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 .partners .card img {
     width: 150px;
     padding-bottom: 15px;
+}
+
+/* Management Page */
+
+.user-card-full {
+    overflow: hidden;
+}
+
+.card {
+    border-radius: 5px;
+    -webkit-box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border: none;
+    margin-bottom: 30px;
+}
+
+.name {
+    color: var(--bs-black);
+}
+
+.designation {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.m-r-0 {
+    margin-right: 0px;
+}
+
+.m-l-0 {
+    margin-left: 0px;
+}
+
+.user-card-full .user-profile {
+    border-radius: 5px 0 0 5px;
+}
+
+.bg-c-lite-green {
+    background: #f2f2f2;
+}
+
+.user-profile {
+    padding: 20px 0;
+}
+
+.m-b-25 {
+    margin-bottom: 25px;
+}
+
+.img-radius {
+    border-radius: 5px;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+.card-block {
+    padding: 1.25rem;
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.card .card-block p {
+    line-height: 25px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    color: #919aa3 !important;
+}
+
+.b-b-default {
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.f-w-600 {
+    font-weight: 600;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-t-40 {
+    margin-top: 20px;
+}
+
+.p-b-5 {
+    padding-bottom: 5px !important;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-t-40 {
+    margin-top: 20px;
+}
+
+.profile-modal .modal-content {
+    background: #f2f2f2;
+}
+
+.profile-modal .modal-header {
+    border-bottom: 1px solid transparent !important;
+    height: 40px;
+}
+
+.bg-c-lite-green {
+    border-right: 1px solid var(--primary-color);
+}
+
+.modal .modal-dialog {
+	-webkit-transition: -webkit-transform 0.5s ease-out;
+	transition: -webkit-transform 0.5s ease-out;
+	-o-transition: transform 0.5s ease-out;
+	transition: transform 0.5s ease-out;
+	transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+	-webkit-transform: translate(0, -50px);
+	-ms-transform: translate(0, -50px);
+	transform: translate(0, -50px);
+}
+
+.page-header {
+    color: var(--primary-color);
+    text-align: center;
+}
+
+.management {
+    background-color: #f2f2f2;
+    padding: 15px 0px;
 }
 
 /* Footer */
