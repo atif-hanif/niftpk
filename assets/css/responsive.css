@@ -113,6 +113,21 @@
 
 }
 
+@media (max-width: 576px) {
+	.main-menu {
+		margin-top: 20px;
+	}
+
+	.bg-c-lite-green {
+		border-right: 1px solid transparent;
+	}
+
+	.user-card-full .btn {
+		position: relative;
+		top: 0px;
+	}
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
 	.u-layout-wrap:not(.u-layout-custom-sm) .u-layout .u-layout-cell {
 		border-left: 0 !important;
@@ -121,5 +136,13 @@
 
 	.u-layout-row > .u-size-20 {
 		min-width: 100%;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+	.user-card-full .btn {
+		position: relative;
+		top: 0px;
 	}
 }
