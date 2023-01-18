@@ -13,6 +13,23 @@ body {
 
 /* Header */
 
+/* header {
+    z-index: 99;
+} */
+
+#site-header {
+    position: fixed;
+    background: #fff;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: all .3s ease;
+}
+
+#site-header.hide {
+    top: -166px;
+}
+
 .top-bar {
     height: 100px;
 }
@@ -64,19 +81,15 @@ body {
     background: var(--bs-black);
 }
 
-header {
-    z-index: 99;
-}
-
 .visible-title {
     visibility: visible;
 }
 
-.sticky {
+/* .sticky {
     position: fixed;
     top: 0;
     width: 100%;
-}
+} */
 
 .scroll-logo {
     height: 40px;
@@ -194,6 +207,11 @@ header {
 }
 
 /* Home Page */
+
+.content {
+    top: 100px;
+    position: relative;
+}
 
 /* Sllider */
 

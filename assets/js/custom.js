@@ -60,18 +60,18 @@ document.addEventListener("DOMContentLoaded", function() {
 	}
 });
 
-window.onscroll = function() {myFunction()};
+// window.onscroll = function() {myFunction()};
 
-var header = document.getElementById("myHeader");
-var sticky = header.offsetTop;
+// var header = document.getElementById("myHeader");
+// var sticky = header.offsetTop;
 
-function myFunction() {
-  	if (window.pageYOffset > sticky) {
-    	header.classList.add("sticky");
-  	} else {
-    	header.classList.remove("sticky");
-  	}
-}
+// function myFunction() {
+//   	if (window.pageYOffset > sticky) {
+//     	header.classList.add("sticky");
+//   	} else {
+//     	header.classList.remove("sticky");
+//   	}
+// }
 
 // $(window).scroll(function(){
 //     if ($(window).scrollTop() >= 100) {
@@ -84,20 +84,66 @@ function myFunction() {
 //     }
 // });
 
-$(window).scroll(function() {
-    if ($(this).scrollTop()>10)
-    {
-        $('.top-bar').hide();
-		// $('#logo').removeClass('d-none');
-		// $('#logo').addClass('d-block');
-    }
-    else
-    {
-      	$('.top-bar').show();
-		// $('#logo').removeClass('d-block');
-		// $('#logo').addClass('d-none');
-    }
-});
+// $(window).scroll(function() {
+//     if ($(this).scrollTop()>10)
+//     {
+//         $('.top-bar').hide();
+// 		$('#logo').removeClass('d-none');
+// 		$('#logo').addClass('d-block');
+//     }
+//     else
+//     {
+//       	$('.top-bar').show();
+// 		$('#logo').removeClass('d-block');
+// 		$('#logo').addClass('d-none');
+//     }
+// });
+
+(function(){
+
+	var doc = document.documentElement;
+	var w = window;
+  
+	var prevScroll = w.scrollY || doc.scrollTop;
+	var curScroll;
+	var direction = 0;
+	var prevDirection = 0;
+  
+	var header = document.getElementById('site-header');
+  
+	var checkScroll = function() {
+  
+		curScroll = w.scrollY || doc.scrollTop;
+		if (curScroll > prevScroll) { 
+			//scrolled up
+			direction = 2;
+		}
+		else if (curScroll < prevScroll) { 
+			direction = 1;
+		}
+	
+		if (direction !== prevDirection) {
+			toggleHeader(direction, curScroll);
+		}
+		
+		prevScroll = curScroll;
+	};
+  
+	var toggleHeader = function(direction, curScroll) {
+		if (direction === 2 && curScroll > 52) { 
+			
+			header.classList.add('hide');
+			prevDirection = direction;
+		}
+		else if (direction === 1) {
+			header.classList.remove('hide');
+			prevDirection = direction;
+		}
+	};
+	
+	window.addEventListener('scroll', checkScroll);
+  
+})();
 
 /* Back to Top */
 
