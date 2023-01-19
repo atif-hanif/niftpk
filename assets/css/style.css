@@ -569,6 +569,21 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     padding-bottom: 15px;
 }
 
+/* About Us */
+
+.about-row {
+    background-color: var(--bs-light-gray);
+}
+
+.vision-heading {
+    color: var(--primary-color);
+}
+
+.objective-heading {
+    color: var(--primary-color);
+}
+
+
 /* Management Page */
 
 .user-card-full {
@@ -739,6 +754,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 	background-color: var(--primary-color);
     padding: 8px 15px;
 }
+
 
 /* Footer */
 
