@@ -105,10 +105,6 @@ body {
     z-index: 2;
 }
 
-.navbar .mega-menu { 
-    padding: 1.5rem; 
-}
-
 .heading a {
     text-decoration: none;
 }
@@ -436,10 +432,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     border: 0px solid transparent;
 }
 
-.u-section-4 .u-layout-cell-2 {
-    min-height: 370px;
-}
-
 .u-layout-col > .u-size-40 {
     flex: 40 0 auto;
 }
@@ -470,13 +462,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     transition-duration: inherit;
 }
 
-.u-section-4 .u-text-3 {
-    font-size: 1.875rem;
-    font-style: normal;
-    font-weight: 400;
-    /* margin: 29px auto 0 0; */
-}
-
 .u-body h1, .u-body h2, .u-body h3, .u-body h4, .u-body h5, .u-body h6 {
     padding: 0;
 }
@@ -495,10 +480,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     align-self: flex-start;
 }
 
-.u-section-4 .u-text-4 {
-    margin: 20px 26px 0 0;
-}
-
 .u-text {
     word-wrap: break-word;
     position: relative;
@@ -511,16 +492,11 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     /* max-height: 3.6em; */
 }
 
-.u-section-4 .u-layout-cell-3 {
-    min-height: 370px;
-}
-
 .u-section-4 .u-container-layout-3 {
     padding: 30px;
 }
 
 .u-section-4 .u-image-1 {
-    min-height: 574px;
     background-image: url(../images/nadra-verisys.jpg);
     background-position: 50% 50%;
 }
@@ -533,7 +509,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 .u-section-4 .u-image-2 {
     background-image: url(../images/utility-payment-processing.jpg);
     background-position: 50% 50%;
-    min-height: 572px;
 }
 
 .u-palette-5-light-2, .u-body.u-palette-5-light-2, .u-palette-5-light-2 > .u-container-layout:before, .u-container-style.u-palette-5-light-2:before, .u-container-layout.u-container-layout.u-palette-5-light-2:before, .u-table-alt-palette-5-light-2 tr:nth-child(even) {
@@ -542,7 +517,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 }
 
 .u-section-4 .u-image-3 {
-    min-height: 574px;
     background-image: url(../images/bise-automated-results.jpg);
     background-position: 50% 50%;
 }
@@ -554,10 +528,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .u-section-4 .u-container-layout-5 {
     padding: 30px;
-}
-
-.u-section-4 .u-layout-cell-6 {
-    min-height: 370px;
 }
 
 .u-layout-col > .u-size-40 {
@@ -728,11 +698,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 	-webkit-transform: translate(0, -50px);
 	-ms-transform: translate(0, -50px);
 	transform: translate(0, -50px);
-}
-
-.user-card-full .btn {
-    position: absolute;
-    bottom: 20px;
 }
 
 /* Board of Dirctors */
