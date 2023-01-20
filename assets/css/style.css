@@ -5,6 +5,7 @@
     --bs-white: #fff;
     --bs-light-gray: #e6e6e6;
     --bs-dark-gray: #bfbfbf;
+    --bg-color: #f6f6f6;
     /* --font-family: "Open Sans", sans-serif !important; */
     --font-family: 'Proxima Nova Alt Rg';
 }
@@ -12,6 +13,10 @@
 body {
     font-family: 'Proxima Nova Alt Rg' !important;
     background-color: #fff;
+}
+
+p {
+    font-size: 17px;
 }
 
 /* Header */
@@ -572,7 +577,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 /* About Us */
 
 .about-row {
-    background-color: var(--bs-light-gray);
+    background-color: var(--bg-color);
 }
 
 .vision-heading {
@@ -583,6 +588,9 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     color: var(--primary-color);
 }
 
+.operating-heading {
+    color: var(--primary-color);
+}
 
 /* Management Page */
 
