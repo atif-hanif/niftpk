@@ -74,6 +74,8 @@ p {
 .navbar .nav-item .dropdown-menu {
     background-color: var(--bs-black);
     opacity: 1;
+    border-color: var(--bs-black);
+    margin-top: 10px;
 }
 
 .dropdown-menu {
@@ -121,6 +123,10 @@ p {
 
 .mega-menu li a:hover {
     color: var(--primary-color);
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0px !important;
 }
 
 /* .mega-menu li {
