@@ -58,7 +58,7 @@ p {
     color: var(--primary-color);
 }
 
-.nav-item::after {
+/* .nav-item::after {
     content: '';
     display: block;
     width: 0px;
@@ -69,13 +69,13 @@ p {
 
 .nav-item:hover::after {
     width: 100%
-}
+} */
 
 .navbar .nav-item .dropdown-menu {
     background-color: var(--bs-black);
     opacity: 1;
     border-color: var(--bs-black);
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 
 .dropdown-menu {
@@ -580,7 +580,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     padding-bottom: 15px;
 }
 
-/* About Us */
+/* About Us Page */
 
 .about-row {
     background-color: var(--bg-color);
@@ -596,6 +596,31 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .operating-heading {
     color: var(--primary-color);
+}
+
+/* Shareholder Bank Page */
+
+.bank-card-full {
+    overflow: hidden;
+}
+
+.bank-card-full, .bank-card-full .row {
+    height: 100%;
+}
+
+.bank-card-full .bank-profile {
+    border-radius: 5px 0 0 5px;
+}
+
+/* Board of Directors Page */
+
+.bod-card {
+    border-radius: 10px;
+    height: 100%;
+    text-align: center;
+    /* border: 2px solid var(--primary-color); */
+    padding: 35px 0px;
+    background: #f2f2f2;
 }
 
 /* Management Page */
@@ -637,10 +662,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     padding: 20px 0;
 }
 
-/* .mb-25 {
-    margin-bottom: 25px;
-} */
-
 .img-radius {
     border-radius: 5px;
 }
@@ -649,60 +670,12 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     line-height: 25px;
 }
 
-/* .card-block {
-    padding: 1.25rem;
-} */
-
-.b-b-default {
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.m-b-20 {
-    margin-bottom: 20px;
-}
-
-.p-b-5 {
-    padding-bottom: 5px !important;
-}
-
 .card .card-block p {
     line-height: 25px;
 }
 
-.m-b-10 {
-    margin-bottom: 10px;
-}
-
 .text-muted {
     color: #919aa3 !important;
-}
-
-.b-b-default {
-    border-bottom: 1px solid #e0e0e0;
-}
-
-.f-w-600 {
-    font-weight: 600;
-}
-
-.m-b-20 {
-    margin-bottom: 20px;
-}
-
-.m-t-40 {
-    margin-top: 20px;
-}
-
-.p-b-5 {
-    padding-bottom: 5px !important;
-}
-
-.m-b-10 {
-    margin-bottom: 10px;
-}
-
-.m-t-40 {
-    margin-top: 20px;
 }
 
 .profile-modal .modal-content {
@@ -729,15 +702,28 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 	transform: translate(0, -50px);
 }
 
-/* Board of Dirctors */
+/* Business Partners Page */
 
-.bod-card {
-    border-radius: 10px;
+.business-partners .card {
+    border-radius: 0px;
+    border-left: 15px solid var(--bs-gray);
     height: 100%;
-    text-align: center;
-    /* border: 2px solid var(--primary-color); */
-    padding: 35px 0px;
-    background: #f2f2f2;
+}
+
+/* Financials Page */
+
+.financials {
+    color: var(--primary-color);
+}
+
+.financials-row a {
+    color: var(--bs-black);
+    text-decoration: none;
+}
+
+.financials-row a i {
+    color: var(--primary-color);
+    padding-top: 13px;
 }
 
 /* Back To Top */

@@ -117,6 +117,18 @@
 	.u-section-4 .u-image-3 {
 		min-height: 500px;
 	}
+
+	.about-us p {
+		text-align: center;
+	}
+
+	.mission-vision {
+		text-align: center;
+	}
+
+	.operating-cities p {
+		text-align: center;
+	}
 }
 
 @media (max-width: 767px) {
@@ -172,12 +184,56 @@
 	.u-section-4 .u-layout-cell-6 {
 		min-height: 200px;
 	}
+
+	.resp-rev {
+		flex-direction: column-reverse;
+	}
+
+	.about-us {
+		text-align: center;
+	}
+
+	.mission-vision {
+		text-align: center;
+	}
+
+	.operating-cities {
+		text-align: center;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
 	.user-card-full .btn {
 		position: relative;
 		top: 0px;
+	}
+
+	.u-section-4 .u-image-1 {
+		min-height: 500px;
+	}
+
+	.u-section-4 .u-image-2 {
+		min-height: 500px;
+	}
+
+	.u-section-4 .u-image-3 {
+		min-height: 500px;
+	}
+
+	.resp-rev {
+		flex-direction: column-reverse;
+	}
+
+	.about-us {
+		text-align: center;
+	}
+
+	.mission-vision {
+		text-align: center;
+	}
+
+	.operating-cities {
+		text-align: center;
 	}
 }
 
