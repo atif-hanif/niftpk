@@ -119,6 +119,16 @@
 	}
 }
 
+@media (max-width: 767px) {
+	.resp-rev {
+		flex-direction: column-reverse;
+	}
+
+	#site-header.hide {
+		top: -176px;
+	}
+}
+
 @media (min-width: 576px) and (max-width: 767px) {
 
 	.u-layout-wrap:not(.u-layout-custom-sm) .u-layout .u-layout-cell {
