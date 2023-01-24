@@ -61,11 +61,6 @@
 /* Projects */
 
 @media (max-width: 575px) {
-
-	
-}
-
-@media (max-width: 575px) {
 	.main-menu {
 		margin-top: 20px;
 	}
@@ -77,15 +72,6 @@
 	.custom-menu {
 		height: 250px;
     	overflow-y: scroll;
-	}
-
-	.bg-c-lite-green {
-		border-right: 1px solid transparent;
-	}
-
-	.user-card-full .btn {
-		position: relative;
-		top: 0px;
 	}
 
 	.nav-item::after {
@@ -126,8 +112,40 @@
 		text-align: center;
 	}
 
+	.bg-c-lite-green {
+		border-right: 1px solid transparent;
+		border-bottom: 1px solid var(--primary-color);
+	}
+
+	.user-card-full .user-profile {
+		border-radius: 5px 0 0 0px;
+	}
+
+	.user-card-full .btn {
+		position: relative;
+		top: 0px;
+	}
+
 	.operating-cities p {
 		text-align: center;
+	}
+
+	.financials {
+		text-align: center;
+	}
+
+	.financials-card h5 {
+		text-align: center;
+	}
+
+	.financials-card h5 i {
+		margin-top: 10px;
+		display: block;
+	}
+
+	.center-image {
+		border-right: 1px solid transparent;
+		border-bottom: 1px solid var(--primary-color);
 	}
 }
 
@@ -189,6 +207,11 @@
 		flex-direction: column-reverse;
 	}
 
+	.bg-c-lite-green {
+		border-right: 1px solid transparent;
+		border-bottom: 1px solid var(--primary-color);
+	}
+
 	.about-us {
 		text-align: center;
 	}
@@ -199,6 +222,24 @@
 
 	.operating-cities {
 		text-align: center;
+	}
+
+	.financials {
+		text-align: center;
+	}
+
+	.financials-card h5 {
+		text-align: center;
+	}
+
+	.financials-card h5 i {
+		margin-top: 10px;
+		display: block;
+	}
+
+	.center-image {
+		border-right: 1px solid transparent;
+		border-bottom: 1px solid var(--primary-color);
 	}
 }
 
@@ -235,6 +276,23 @@
 	.operating-cities {
 		text-align: center;
 	}
+
+	.financials {
+		text-align: center;
+	}
+
+	.financials-card {
+		height: 100%;
+	}
+
+	.financials-card h5 {
+		text-align: center;
+	}
+
+	.financials-card h5 i {
+		margin-top: 10px;
+		display: block;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -265,6 +323,15 @@
 
 	.u-section-4 .u-image-3 {
 		min-height: 500px;
+	}
+
+	.financials-card {
+		height: 100%;
+	}
+
+	.financials-card h5 i {
+		margin-top: 10px;
+		display: block;
 	}
 }
 
