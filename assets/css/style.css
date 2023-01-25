@@ -747,7 +747,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 }
 
 .center-image {
-    border-right: 1px solid var(--primary-color);
     padding-left: 0px;
     padding-right: 0px;
 }
@@ -762,6 +761,21 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .place {
     color: var(--primary-color);
+}
+
+/* Member Banks Page */
+
+.banks-table thead tr {
+    background-color: var(--primary-color);
+    color: var(--bs-white);
+}
+
+.banks-table img {
+    width: 50px;
+}
+
+.banks-table td {
+    vertical-align: middle;
 }
 
 /* Back To Top */
