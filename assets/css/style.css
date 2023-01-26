@@ -751,9 +751,9 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     padding-right: 0px;
 }
 
-.center-image img {
+/* .center-image img {
     height: 100%;
-}
+} */
 
 .center-card-full h6 {
     font-weight: 600;
@@ -761,6 +761,21 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .place {
     color: var(--primary-color);
+}
+
+.central-operations-img {
+    background-image: url(../images/centers/central-operations.jpg);
+    background-size: cover;
+}
+
+.abbottabad-img {
+    background-image: url(../images/centers/abbottabad.jpg);
+    background-size: cover;
+}
+
+.attock-img {
+    background-image: url(../images/centers/attock.jpg);
+    background-size: cover;
 }
 
 /* Member Banks Page */
