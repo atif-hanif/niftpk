@@ -46,7 +46,7 @@ p {
     color: var(--bs-black);
 }
 
-.nav-link {
+.main-menu .nav-link {
     color: var(--bs-white);
     font-size: 17px;
 }
@@ -244,6 +244,62 @@ p {
     background-repeat: no-repeat;
 }
 
+.about-page-header {
+    background-size: 25% 3px;
+}
+
+.shareholder-bank-header {
+    background-size: 70% 3px;
+}
+
+.bod-header {
+    background-size: 65% 3px;
+}
+
+.management-header {
+    background-size: 65% 3px;
+}
+
+.business-partners-header {
+    background-size: 62% 3px;
+}
+
+.financials-header {
+    background-size: 32% 3px;
+}
+
+.automated-clearing-header {
+    background-size: 70% 3px;
+}
+
+.eibc-header {
+    background-size: 123% 3px;
+}
+
+.e-cheque-header {
+    background-size: 30% 3px;
+}
+
+.pccd-header {
+    background-size: 155% 3px;
+}
+
+.member-banks-header {
+    background-size: 90% 3px;
+}
+
+.contact-us-header {
+    background-size: 35% 3px;
+}
+
+.projects-header {
+    background-size: 25% 3px;
+}
+
+.events-header {
+    background-size: 17% 3px;
+}
+
 /* Home Page */
 
 .content {
@@ -251,7 +307,7 @@ p {
     position: relative;
 }
 
-/* Sllider */
+/* Slider */
 
 .slider .carousel-inner {
     padding: 100px 0px;
@@ -766,16 +822,163 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 .central-operations-img {
     background-image: url(../images/centers/central-operations.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .abbottabad-img {
     background-image: url(../images/centers/abbottabad.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 .attock-img {
     background-image: url(../images/centers/attock.jpg);
     background-size: cover;
+    background-position: center;
+}
+
+.bahawalpur-img {
+    background-image: url(../images/centers/bahawalpur.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.dg-khan-img {
+    background-image: url(../images/centers/dera-ghazi-khan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.di-khan-img {
+    background-image: url(../images/centers/dera-ismail-khan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.faisalabad-img {
+    background-image: url(../images/centers/faisalabad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.gujranwala-img {
+    background-image: url(../images/centers/gujranwala.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.hyderabad-img {
+    background-image: url(../images/centers/hyderabad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.islamabad-img {
+    background-image: url(../images/centers/islamabad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.jhang-img {
+    background-image: url(../images/centers/jhang.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.jhelum-img {
+    background-image: url(../images/centers/jhelum.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.karachi-img {
+    background-image: url(../images/centers/karachi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.lahore-img {
+    background-image: url(../images/centers/lahore.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.larkana-img {
+    background-image: url(../images/centers/larkana.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.multan-img {
+    background-image: url(../images/centers/multan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.muzaffarabad-img {
+    background-image: url(../images/centers/muzaffarabad.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nawabshah-img {
+    background-image: url(../images/centers/nawabshah.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.peshawar-img {
+    background-image: url(../images/centers/peshawar.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.quetta-img {
+    background-image: url(../images/centers/quetta.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.ry-khan-img {
+    background-image: url(../images/centers/rahim-yar-khan.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.rawalpindi-img {
+    background-image: url(../images/centers/rawalpindi.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sahiwal-img {
+    background-image: url(../images/centers/sahiwal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sargodha-img {
+    background-image: url(../images/centers/sargodha.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sialkot-img {
+    background-image: url(../images/centers/sialkot.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.sukkur-img {
+    background-image: url(../images/centers/sukkur.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.vehari-img {
+    background-image: url(../images/centers/vehari.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 /* Member Banks Page */
@@ -791,6 +994,112 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .banks-table td {
     vertical-align: middle;
+}
+
+/* Projects Page */
+
+.project .card {
+    height: 100%;
+}
+
+.project1 {
+    color: var(--bs-white);
+    background-color: var(--primary-color);
+}
+
+.project2 {
+    color: var(--bs-black);
+    background-color: #e0e5eb;
+}
+
+.project3 {
+    color: var(--bs-white);
+    background-color: var(--bs-gray);
+}
+
+.project-text {
+    word-wrap: break-word;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.project-heading {
+    word-wrap: break-word;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+}
+
+.sidebar {
+    background-color: var(--bs-white);
+    padding: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.175);
+}
+
+.sidebar .nav-link {
+    color: var(--bs-black);
+    font-size: 17px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+.sidebar .nav-link.active {
+    color: var(--primary-color);
+}
+
+.projects-heading {
+    color: var(--primary-color);
+}
+
+.sidebar h5 {
+    text-align: center;
+    font-weight: 600;
+}
+
+/* Events Page */
+
+.events .card {
+    height: 100%;
+}
+
+.event1 {
+    color: var(--bs-white);
+    background-color: var(--primary-color);
+}
+
+.event2 {
+    color: var(--bs-black);
+    background-color: #e0e5eb;
+}
+
+.event3 {
+    color: var(--bs-white);
+    background-color: var(--bs-gray);
+}
+
+.event-text {
+    word-wrap: break-word;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+}
+
+.events-heading {
+    color: var(--primary-color);
+}
+
+.event-link {
+    color: var(--primary-color);
+    text-decoration: none;
 }
 
 /* Back To Top */
