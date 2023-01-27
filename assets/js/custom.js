@@ -163,12 +163,42 @@ $(document).ready(function() {
 	});
 });
 
-// $('.slider').css('height', $(window).height()+'px');
+let captchaText = document.querySelector('#captchatext');
 
-// $('.about').css('height', $(window).height()+'px');
+let userText = document.querySelector('#captcha');
 
-// $('.ibcs').css('height', $(window).height()+'px');
+let submitButton = document.querySelector('#submit');
 
-// $('.echeque').css('height', $(window).height()+'px');
+let output = document.querySelector('#output');
 
-// $('.partners').css('height', $(window).height()+'px');
+let alphaNums = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
+
+let emptyArr = [];
+for(let i = 1; i <= 6; i++) {
+	emptyArr.push(alphaNums[Math.floor(Math.random() * alphaNums.length)]);
+}
+captchaText.innerHTML = emptyArr.join('');
+
+submitButton.addEventListener('click',  function() {
+	if(userText.value === captchaText.innerHTML) {
+		output.classList.add("greenText");
+		output.innerHTML = "Correct!";
+	} else {
+		output.classList.add("redText");
+		output.innerHTML = "Incorrect, please try again";
+	}
+});
+
+
+submitButton.addEventListener('keyup', function(e) {
+	if(e.keyCode === 13) {
+	if(userText.value === captchaText.innerHTML) {
+		console.log("correct!");
+		output.classList.add("greenText");
+		output.innerHTML = "Correct!";
+	} else {
+		output.classList.add("redText");
+		output.innerHTML = "Incorrect, please try again";
+	}
+	}
+});

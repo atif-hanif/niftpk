@@ -6,6 +6,7 @@
     --bs-light-gray: #e6e6e6;
     --bs-dark-gray: #bfbfbf;
     --bg-color: #f6f6f6;
+    --green: #1a3815;
     /* --font-family: "Open Sans", sans-serif !important; */
     --font-family: 'Proxima Nova Alt Rg';
 }
@@ -20,10 +21,6 @@ p {
 }
 
 /* Header */
-
-/* header {
-    z-index: 99;
-} */
 
 #site-header {
     position: fixed;
@@ -59,19 +56,6 @@ p {
     color: var(--primary-color);
 }
 
-/* .nav-item::after {
-    content: '';
-    display: block;
-    width: 0px;
-    height: 2px;
-    background: var(--primary-color);
-    transition: 0.4s
-}
-
-.nav-item:hover::after {
-    width: 100%
-} */
-
 .navbar .nav-item .dropdown-menu {
     background-color: var(--bs-black);
     opacity: 1;
@@ -96,39 +80,39 @@ p {
     visibility: visible;
 }
 
+.quicklinks ul li a {
+    color: var(--bs-white);
+}
+
+.scroll-logo {
+    height: 40px;
+}
+
+/* header {
+    z-index: 99;
+} */
+
+/* .nav-item::after {
+    content: '';
+    display: block;
+    width: 0px;
+    height: 2px;
+    background: var(--primary-color);
+    transition: 0.4s
+}
+
+.nav-item:hover::after {
+    width: 100%
+} */
+
 /* .sticky {
     position: fixed;
     top: 0;
     width: 100%;
 } */
 
-.scroll-logo {
-    height: 40px;
-}
 
 /* Mega Menu */
-
-.main-menu {
-    position: sticky;
-    z-index: 2;
-}
-
-.heading a {
-    text-decoration: none;
-}
-
-.mega-menu li a {
-    color: var(--bs-white);
-    text-decoration: none;
-}
-
-.mega-menu li a:hover {
-    color: var(--primary-color);
-}
-
-.dropdown-menu[data-bs-popper] {
-    margin-top: 0px !important;
-}
 
 /* .mega-menu li {
     width: 100%;
@@ -208,6 +192,28 @@ p {
 .mega-menu ul li a:before {
   transition: all .5s;
 }  */
+
+.main-menu {
+    position: sticky;
+    z-index: 2;
+}
+
+.heading a {
+    text-decoration: none;
+}
+
+.mega-menu li a {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.mega-menu li a:hover {
+    color: var(--primary-color);
+}
+
+.dropdown-menu[data-bs-popper] {
+    margin-top: 0px !important;
+}
 
 .heading {
     color: var(--primary-color);
@@ -298,6 +304,30 @@ p {
 
 .events-header {
     background-size: 17% 3px;
+}
+
+.ism-header {
+    background-size: 10% 3px;
+}
+
+.ism-management-header {
+    background-size: 65% 3px;
+}
+
+.ism-offerings-header {
+    background-size: 48% 3px;
+}
+
+.terms-header {
+    background-size: 70% 3px;
+}
+
+.career-header {
+    background-size: 22% 3px;
+}
+
+.ecomplaint-header {
+    background-size: 52% 3px;
 }
 
 /* Home Page */
@@ -647,11 +677,35 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     color: var(--primary-color);
 }
 
+.mission-heading {
+    color: var(--primary-color);
+}
+
 .objective-heading {
     color: var(--primary-color);
 }
 
 .operating-heading {
+    color: var(--primary-color);
+}
+
+.core-heading {
+    color: var(--primary-color);
+}
+
+.history-heading {
+    color: var(--primary-color);
+}
+
+.turn-key-heading {
+    color: var(--primary-color);
+}
+
+.banking-heading {
+    color: var(--primary-color);
+}
+
+.financial-services-heading {
     color: var(--primary-color);
 }
 
@@ -996,6 +1050,21 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     vertical-align: middle;
 }
 
+/* ISM */
+
+.ism a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* ISM Management */
+
+.ism-management a {
+    color: var(--primary-color);
+    text-decoration: none;
+    font-weight: 600;
+}
+
 /* Projects Page */
 
 .project .card {
@@ -1100,6 +1169,32 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 .event-link {
     color: var(--primary-color);
     text-decoration: none;
+}
+
+.events img {
+    width: 100%;
+}
+
+/* E-Complaint Page */
+
+.ecomplaint label {
+    color: var(--primary-color);
+}
+
+.captchatext {
+    border: 1px solid var(--primary-color);
+    text-align: center;
+    padding: 10px;
+}
+
+.redText {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.greenText {
+    color: var(--green);
+    font-weight: bold;
 }
 
 /* Back To Top */
