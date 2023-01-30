@@ -330,6 +330,46 @@ p {
     background-size: 52% 3px;
 }
 
+.locator-page-header {
+    background-size: 40% 3px;
+}
+
+.about-etrust-page-header {
+    background-size: 65% 3px;
+}
+
+.kpi-page-header {
+    background-size: 75% 3px;
+}
+
+.digicert-page-header {
+    background-size: 148% 3px;
+}
+
+.kpi-tokens-page-header {
+    background-size: 75% 3px;
+}
+
+.penetration-page-header {
+    background-size: 70% 3px;
+}
+
+.fbr-digital-page-header {
+    background-size: 45% 3px;
+}
+
+.cm-pak-page-header {
+    background-size: 60% 3px;
+}
+
+.cmpak-page-header {
+    background-size: 165% 3px;
+}
+
+.pro-tls-page-header {
+    background-size: 80% 3px; 
+}
+
 /* Home Page */
 
 .content {
@@ -1048,6 +1088,60 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .banks-table td {
     vertical-align: middle;
+}
+
+/* NIFT E-Trust Page */
+
+.etrust-services .card {
+    background-color: var(--primary-color);
+    height: 100%;
+}
+
+.etrust-services h2 {
+    text-transform: uppercase;
+}
+
+/* Managed KPI Service */
+
+.kpi a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* CM Pak Req Form Page */
+
+.cm-pak a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* FBR Digitak Page*/
+
+.fbr-digital a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Pro TLS/SSL */
+
+.pro-tls h5 {
+    color: var(--primary-color);
+}
+
+.pro-tls h3, .pro-tls h6 {
+    color: var(--primary-color);
+}
+
+.pro-tls .column {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border: 1px solid var(--bs-white);
+}
+
+.pro-tls .column h6 {
+    color: var(--bs-white);
+    text-align: center;
+    margin-bottom: 0px;
 }
 
 /* ISM */
