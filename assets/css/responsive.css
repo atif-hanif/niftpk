@@ -117,6 +117,20 @@
 		border-bottom: 1px solid var(--primary-color);
 	}
 
+	.bank-card-full .bank-profile {
+		border-radius: 5px 0 0 0px;
+	}
+
+	.bank-card-full h4, .bank-card-full p {
+		text-align: center;
+	}
+
+	.bank-card-full a {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
 	.user-card-full .user-profile {
 		border-radius: 5px 0 0 0px;
 	}
@@ -126,7 +140,17 @@
 		top: 0px;
 	}
 
-	.operating-cities p {
+	.user-card-full h4, .user-card-full p, .user-card-full h6 {
+		text-align: center;
+	}
+
+	.user-card-full button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.operating-cities p, .operating-cities h2 {
 		text-align: center;
 	}
 
@@ -146,6 +170,26 @@
 	.center-image {
 		border-right: 1px solid transparent;
 		border-bottom: 1px solid var(--primary-color);
+	}
+
+	.history p, .history h2 {
+		text-align: center;
+	}
+
+	.turn-key p, .turn-key h2 {
+		text-align: center;
+	}
+
+	.baking-industry p, .baking-industry h2 {
+		text-align: center;
+	}
+
+	.financial-services p, .financial-services h2 {
+		text-align: center;
+	}
+
+	.automated-clearing p {
+		text-align: center;
 	}
 }
 
@@ -241,6 +285,26 @@
 		border-right: 1px solid transparent;
 		border-bottom: 1px solid var(--primary-color);
 	}
+
+	.history p, .history h2 {
+		text-align: center;
+	}
+
+	.turn-key p, .turn-key h2 {
+		text-align: center;
+	}
+
+	.baking-industry p, .baking-industry h2 {
+		text-align: center;
+	}
+
+	.financial-services p, .financial-services h2 {
+		text-align: center;
+	}
+
+	.automated-clearing p {
+		text-align: center;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -292,6 +356,26 @@
 	.financials-card h5 i {
 		margin-top: 10px;
 		display: block;
+	}
+
+	.history p, .history h2 {
+		text-align: center;
+	}
+
+	.turn-key p, .turn-key h2 {
+		text-align: center;
+	}
+
+	.baking-industry p, .baking-industry h2 {
+		text-align: center;
+	}
+
+	.financial-services p, .financial-services h2 {
+		text-align: center;
+	}
+
+	.automated-clearing p {
+		text-align: center;
 	}
 
 }

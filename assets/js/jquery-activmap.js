@@ -168,7 +168,7 @@
                         
                         $('.activmap-place').removeClass('active');
                         $('#activmap-place_'+i).addClass('active');
-                        activmap_places.scrollTop(activmap_places.scrollTop()+$('#activmap-place_'+i).position().top);
+                        activmap_places.scrollTop(activmap_places.scrollTop()+$('#activmap-place_'+i).position().bottom);
                     });
                     
                     marker.setVisible(false);

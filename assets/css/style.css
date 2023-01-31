@@ -7,6 +7,9 @@
     --bs-dark-gray: #bfbfbf;
     --bg-color: #f6f6f6;
     --green: #1a3815;
+    --warning: #fcf8e3;
+    --success: #dff0d8;
+    --info: #d9edf7;
     /* --font-family: "Open Sans", sans-serif !important; */
     --font-family: 'Proxima Nova Alt Rg';
 }
@@ -368,6 +371,38 @@ p {
 
 .pro-tls-page-header {
     background-size: 80% 3px; 
+}
+
+.business-tls-page-header {
+    background-size: 95% 3px; 
+}
+
+.wilcard-page-header {
+    background-size: 63% 3px;
+}
+
+.multi-page-header {
+    background-size: 50% 3px;
+}
+
+.digi-vmc-page-header {
+    background-size: 110% 3px;
+}
+
+.code-sign-page-header {
+    background-size: 80% 3px;
+}
+
+.geotrust-page-header {
+    background-size: 95% 3px;
+}
+
+.rapidssl-page-header {
+    background-size: 100% 3px;
+}
+
+.compare-ssl-page-header {
+    background-size: 120% 3px;
 }
 
 /* Home Page */
@@ -1101,6 +1136,21 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     text-transform: uppercase;
 }
 
+.etrust-services ul {
+    list-style-type: none;
+    padding-left: 1rem;
+}
+
+.etrust-services ul li a {
+    color: var(--bs-white);
+    text-decoration: none;
+}
+
+.etrust-services .fa-chevron-right {
+    color: var(--bs-white);
+    font-size: 12px;
+}
+
 /* Managed KPI Service */
 
 .kpi a {
@@ -1142,6 +1192,103 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     color: var(--bs-white);
     text-align: center;
     margin-bottom: 0px;
+}
+
+/* Business TLS/SSL */
+
+.business-tls td h4 {
+    color: var(--primary-color);
+    margin-bottom: 0px;
+}
+
+.business-tls .fa-times {
+    color: var(--primary-color);
+}
+
+.business-tls .technical {
+    color: var(--primary-color) !important;
+}
+
+.business-tls span {
+    color: var(--primary-color);
+}
+
+.business-tls .column {
+    background-color: var(--primary-color);
+    padding: 20px;
+    border: 1px solid var(--bs-white);
+}
+
+.business-tls .column h6 {
+    color: var(--bs-white);
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.business-tls a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+/* Basic TLS/SSL */
+
+.basic -tls td h4 {
+    color: var(--primary-color);
+    margin-bottom: 0px;
+}
+
+.basic-tls .fa-times {
+    color: var(--primary-color);
+}
+
+.basic-tls .technical {
+    color: var(--primary-color) !important;
+}
+
+/* Wild Card Certificates */
+
+.wilcard a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.wilcard span {
+    font-weight: 600;
+}
+
+/* Digi VMC Page */
+
+.digi-vmc .verified h5 {
+    color: var(--primary-color);
+}
+
+.border-right {
+    border-right: 1px solid var(--primary-color);
+}
+
+.digi-vmc a {
+    color: var(--primary-color);
+}
+
+/* Code Signing Certificates */
+
+.top-border {
+    background-color: var(--primary-color);
+    height: 20px;
+}
+
+/* Compare Symantec SSL Certificate */
+
+.warning {
+    background-color: var(--warning) !important;
+}
+
+.success {
+    background-color: var(--success) !important;
+}
+
+.info {
+    background-color: var(--info) !important;
 }
 
 /* ISM */

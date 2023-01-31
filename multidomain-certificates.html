@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Shareholder Banks</title>
+	<title>SAN Certificates</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -291,128 +291,129 @@
 	<div class="content">
 		<div class="container">
             <div class="row justify-content-center top-heading">
-                <div class="col-lg-8">
-                    <h1 class="page-header shareholder-bank-header">Shareholder Banks</h1>
+                <div class="col-lg-9">
+                    <h1 class="page-header multi-page-header">SAN Certificates</h1>
                 </div>
             </div>
+		</div>
 
-            <div class="row my-3 my-md-4 my-lg-5">
-                <div class="col-xl-6 col-md-12 mb-4 wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
-                    <div class="card bank-card-full">
-                        <div class="row mx-0">
-                            <div class="col-sm-5 bg-c-lite-green bank-profile">
-                                <div class="card-body text-center text-white">
-                                    <img src="assets/images/shareholders-bank/hbl-bank-logo.png" class="img-fluid" alt="HBL Logo">
-                                </div>
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="card-body">
-                                    <h4 class="bank-name">HABIB BANK LIMITED</h4>
-                                    <p>HBL was the first commercial bank to be established in Pakistan in 1947. Over the years, HBL has grown its branch network and become the largest private sector bank with over 1,700+ branches and 2,100+ ATMs across the country and a customer base exceeding twenty million relationships.</p>
-                                    <a class="btn btn-danger custom-btn" href="https://www.hbl.com/" target="_blank">Official  Website</a>
-                                </div>
-                            </div>
-                        </div>
+		<section class="multidomain my-5">
+            <div class="container">
+                <div class="row wow animate__animated animate__fadeIn">
+                    <div class="col-12">
+                        <h4>What can Subject Alternative Names do?</h4>
+                        <p>Hosting multiple SSL-enabled sites on a single server typically requires a unique IP address per site, but a certificate with Subject Alternative Names can solve this problem. Microsoft IIS 6, 7 and Apache are both able to Virtual Host HTTPS sites using Unified Communications SSL certificate, also known as SAN certificates.</p>
+                        <h4>Features</h4>
+                        <ul>
+                            <li>Can Contain Different FQDN (Fully Qualified Domains Names) or same top level domains with different hosts.</li>
+                            <li>Can have up to 1 Main Domain and 4 additional Domains within the certificate. </li>
+                            <li>Example 1: host1.domain.com and host2.domain.com </li>
+                            <li>Example 2: www.domain.com and www.abc.com. </li>
+                            <li>Can be deployed across multiple servers when purchasing licenses. </li>
+                            <li>Instances where there is a need to secure multiple domains that resolve to a single IP address (such as in a shared hosting environment).</li>
+                        </ul>
+                        <p>Using a SAN certificate saves the hassle and time involved in configuring multiple IP addresses on Exchange 2007 server.</p>
+                        <h4>How browsers use the Subject Alternative Name field in SSL certificate?</h4>
+                        <p>When browsers connect to server using https, they check to make sure SSL certificate matches the domain name in the address bar.</p>
+                        <p>There are three ways for browsers to find a match:</p>
+                        <ul>
+                            <li>The domain name (in the address bar) exactly matches the Common Name in the certificate’s Subject.</li>
+                            <li>The domain name matches a wildcard common name. For example, www.example.com matches the common name *.example.com.</li>
+                            <li>The Domain name is listed in the Subject Alternative Name field.</li>
+                        </ul>
+                        <p>Comparing the Server Name it connects to, with the Common Name in the Server certificate, is a common way browses match the domain name typed in the address bar.</p>
+                        <p>It is safe to assume that all SSL clients support exact common name matching.</p>
+                        <p>If an SSL certificate has a Subject Alternative Name (SAN) field, then SSL clients are supposed to ignore the common name value andseek a match in the SAN list.</p>
+                        <h4>Features</h4>
+                        <p>The SAN attribute is available with all Verisign certificates</p>
+                        <h3 class="fw-bold">digicert mutli-domain ssl</h3>
+                        <h4 class="fw-bold">WHAT IS A MULTI-DOMAIN CERTIFICATE?</h4>
+                        <p>Multi-Domain Certificates, also called SAN certificates, offer boundless flexibility and complete control over the Subject Alternative Name field. And now, any DigiCert certificate can be configured to allow multi-domain. These certificates are ideal for securing many names across different domains and subdomains. You also have the option to add, change, and delete of the SANs  on the fly to reflect the evolving needs of your network. Here’s how it works: </p>
+                        <p>With any DigiCert certificate, you could secure the following domains: </p>
+                        <p>www.example.com <br>
+                           www.example2.com <br>
+                           www.example3.net <br>
+                           mail.example.net<br>
+                           dev.example2.net </p>
+                        <p>The  Subject Alternative Name field lets you specify additional host names (sites, IP addresses, common names, etc.) to be protected by a single TLS/SSL certificate, such as a Multi-Domain (SAN) or Extended Validation Multi-Domain Certificate.</p>
+                        <h4 class="fw-bold">Multi-Domain SSL supported products</h4>
+                        <a href="basic-tls-ssl-certificates.html" class="d-block">Basic OV</a>
+                        <a href="business-tls-ssl-certificates.html" class="d-block">Secure Site</a>
+                        <a href="pro-tls-ssl-certificates.html" class="d-block">Secure Site Pro</a>
+						<button type="button" class="btn btn-danger custom-btn mt-3" data-bs-toggle="modal" data-bs-target="#myModal">Contact Us </button>
                     </div>
                 </div>
+            </div>
+        </section>
+	</div>
 
-				<div class="col-xl-6 col-md-12 mb-4 wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
-                    <div class="card bank-card-full">
-                        <div class="row mx-0">
-                            <div class="col-sm-5 bg-c-lite-green bank-profile">
-                                <div class="card-body text-center text-white">
-                                    <img src="assets/images/shareholders-bank/mcb-bank-logo.png" class="img-fluid" alt="MCB Logo">
-                                </div>
+	<div class="modal" id="myModal">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title">Contact Us</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+        
+                <div class="modal-body">
+                    <p>Please fill the form below to contact our representative.</p>
+                    <p>* Mandatory fields</p>
+                    <form action="" method="post" class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <label for="name" class="form-label">Name: *</label>
+                                <input type="text" class="form-control" id="name" name="name" required>
+                                <div class="invalid-feedback">Please enter a value.</div>
                             </div>
-                            <div class="col-sm-7">
-                                <div class="card-body">
-                                    <h4 class="bank-name">MCB BANK LIMITED</h4>
-                                    <p>Established in 1947, MCB Bank Limited is one of the largest Banks in Pakistan with a total customer base exceeding 7 million. Renowned for its consumer-centric approach, the Bank has a vast branch network of over 1,400 branches in Pakistan and abroad, in countries such as Sri Lanka, Bahrain and Dubai.</p>
-                                    <a class="btn btn-danger custom-btn" href="https://www.mcb.com.pk/" target="_blank">Official  Website</a>
-                                </div>
+
+                            <div class="col-lg-6 mt-4 mt-lg-0">
+                                <label for="mobile" class="form-label">Mobile:</label>
+                                <input type="tel" class="form-control" id="mobile" name="mobile">
+                            </div>
+
+                            <div class="col-lg-6 mt-4">
+                                <label for="email" class="form-label">Email: *</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                                <div class="invalid-feedback">Please enter a value.</div>
+                            </div>
+
+                            <div class="col-lg-6 mt-4">
+                                <label for="company" class="form-label">Company Name/ Bank Name:</label>
+                                <input type="text" class="form-control" id="company" name="company">
+                            </div>
+
+                            <div class="col-lg-6 mt-4">
+                                <label for="subject" class="form-label">Subject: *</label>
+                                <input type="text" class="form-control" id="subject" name="subject" required>
+                                <div class="invalid-feedback">Please enter a value.</div>
+                            </div>
+
+                            <div class="col-12 mt-4">
+                                <label for="message" class="form-label">Message: *</label>
+                                <textarea class="form-control" rows="3" id="message" name="text" required></textarea>
+                                <div class="invalid-feedback">Please enter a value.</div>
+                            </div>
+
+                            <div class="col-lg-4 mt-4">
+                                <label for="captcha" class="form-label">Captcha: *</label>
+                                <input id="captcha" type="text" name="captcha" class="form-control" required minlength="6" maxlength="6">
+                                <span id="output"></span>
+                            </div>
+
+                            <div class="col-lg-2 mt-4 mt-lg-auto mb-lg-2">
+                                <span id="captchatext" class="captchatext">captcha text</span>
+                            </div>
+
+                            <div class="col-lg-2 mt-4 mt-lg-auto">
+                                <button type="submit" class="btn btn-danger" id="submit">Submit</button>
                             </div>
                         </div>
-                    </div>
+                    </form>
                 </div>
-
-                <div class="col-xl-6 col-md-12 mb-4 wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
-                    <div class="card bank-card-full">
-                        <div class="row mx-0">
-                            <div class="col-sm-5 bg-c-lite-green bank-profile">
-                                <div class="card-body text-center text-white">
-                                    <img src="assets/images/shareholders-bank/ubl-bank-logo.png" class="img-fluid" alt="UBL Logo">
-                                </div>
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="card-body">
-                                    <h4 class="bank-name">UNITED BANK LIMITED</h4>
-                                    <p>United Bank Limited (UBL) leads the banking and financial services sector in Pakistan. With a customer base of over 4 million, the Bank boasts Pakistan’s widest network of over 44,000 customer touchpoints; this includes more than 1,400 branches, above 37,000 Omni Agents and over 1,400 ATMs. UBL has presence in four continents.</p>
-                                    <a class="btn btn-danger custom-btn" href="https://www.ubldigital.com/" target="_blank">Official  Website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-6 col-md-12 mb-4 wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
-                    <div class="card bank-card-full">
-                        <div class="row mx-0">
-                            <div class="col-sm-5 bg-c-lite-green bank-profile">
-                                <div class="card-body text-center text-white">
-                                    <img src="assets/images/shareholders-bank/nbp-bank-logo.png" class="img-fluid" alt="NBP Logo">
-                                </div>
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="card-body">
-                                    <h4 class="bank-name">NATIONAL BANK OF PAKISTAN</h4>
-                                    <p>National Bank of Pakistan is one of the largest commercial bank operating in Pakistan. It has redefined its role and has moved from a public sector organization into a modern commercial bank. The Bank’s services are available to individuals, corporate entities and government.</p>
-                                    <a class="btn btn-danger custom-btn" href="https://www.nbp.com.pk/" target="_blank">Official  Website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-6 col-md-12 mb-4 wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
-                    <div class="card bank-card-full">
-                        <div class="row mx-0">
-                            <div class="col-sm-5 bg-c-lite-green bank-profile">
-                                <div class="card-body text-center text-white">
-                                    <img src="assets/images/shareholders-bank/allied-bank-logo.png" class="img-fluid" alt="Allied Bank Logo">
-                                </div>
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="card-body">
-                                    <h4 class="bank-name">ALLIED BANK LIMITED</h4>
-                                    <p>The Bank started out in Lahore by the name Australasia Bank before independence in 1942; and became Allied Bank of Pakistan in 1974. In August 2004, because of capital reconstruction, the Bank’s ownership was transferred to a consortium comprising Ibrahim Group; therefore, it was renamed as Allied Bank Limited in 2005.</p>
-                                    <a class="btn btn-danger custom-btn" href="https://www.abl.com/" target="_blank">Official  Website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-xl-6 col-md-12 mb-4 wow animate__animated animate__fadeIn" data-wow-delay="0.2s">
-                    <div class="card bank-card-full">
-                        <div class="row mx-0">
-                            <div class="col-sm-5 bg-c-lite-green bank-profile">
-                                <div class="card-body text-center text-white">
-                                    <img src="assets/images/shareholders-bank/fwbl-bank-logo.png" class="img-fluid" alt="FWBL Logo">
-                                </div>
-                            </div>
-                            <div class="col-sm-7">
-                                <div class="card-body">
-                                    <h4 class="bank-name">FIRST WOMEN BANK LIMITED</h4>
-                                    <p>First Women Bank Ltd. is a unique financial institution, a Scheduled Commercial Bank, set up in 1989 by the Islamic world’s first woman Prime Minister Benazir Bhutto (Shaheed), who wanted a bank that would meet the banking needs of women.</p>
-                                    <a class="btn btn-danger custom-btn" href="https://www.fwbl.com.pk/" target="_blank">Official  Website</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+      
             </div>
         </div>
-	</div>
+    </div>
 
 	<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true">
 		<i class="fas fa-arrow-up text-white"></i>
@@ -524,6 +525,7 @@
 	
     <script src="assets/js/jquery-3.6.3.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/jquery.validate.js"></script>
 	<script src="assets/js/wow.js"></script>
 	<script src="assets/js/custom.js"></script>
 </body>
