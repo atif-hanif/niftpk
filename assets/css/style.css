@@ -55,6 +55,10 @@ p {
     color: var(--primary-color);
 }
 
+.top-bar .active {
+    color: var(--primary-color);
+}
+
 .nav-link:focus, .nav-link:hover {
     color: var(--primary-color);
 }
@@ -403,6 +407,30 @@ p {
 
 .compare-ssl-page-header {
     background-size: 120% 3px;
+}
+
+.product-page-header {
+    background-size: 70% 3px;
+}
+
+.etrust-page-header {
+    background-size: 40% 3px;
+}
+
+.digital-page-header {
+    background-size: 50% 3px;
+}
+
+.ssl-page-header {
+    background-size: 50% 3px;
+}
+
+.network-page-header {
+    background-size: 85% 3px;
+}
+
+.dsc-page-header {
+    background-size: 100% 3px;
 }
 
 /* Home Page */
@@ -790,6 +818,10 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     overflow: hidden;
 }
 
+.bank-profile .card-body {
+    height: 100%;
+}
+
 .bank-name {
     color: var(--primary-color);
 }
@@ -1172,7 +1204,13 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     text-decoration: none;
 }
 
-/* Pro TLS/SSL */
+/* SSL Certificate */
+
+.technical {
+    color: var(--primary-color) !important;
+}
+
+/* Pro TLS/SSL Page */
 
 .pro-tls h5 {
     color: var(--primary-color);
@@ -1194,7 +1232,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     margin-bottom: 0px;
 }
 
-/* Business TLS/SSL */
+/* Business TLS/SSL Page */
 
 .business-tls td h4 {
     color: var(--primary-color);
@@ -1203,10 +1241,6 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
 
 .business-tls .fa-times {
     color: var(--primary-color);
-}
-
-.business-tls .technical {
-    color: var(--primary-color) !important;
 }
 
 .business-tls span {
@@ -1230,7 +1264,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     text-decoration: none;
 }
 
-/* Basic TLS/SSL */
+/* Basic TLS/SSL Page */
 
 .basic -tls td h4 {
     color: var(--primary-color);
@@ -1241,11 +1275,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     color: var(--primary-color);
 }
 
-.basic-tls .technical {
-    color: var(--primary-color) !important;
-}
-
-/* Wild Card Certificates */
+/* Wild Card Certificates Page */
 
 .wilcard a {
     color: var(--primary-color);
@@ -1256,7 +1286,7 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     font-weight: 600;
 }
 
-/* Digi VMC Page */
+/* Digi VMC Page Page */
 
 .digi-vmc .verified h5 {
     color: var(--primary-color);
@@ -1270,14 +1300,14 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     color: var(--primary-color);
 }
 
-/* Code Signing Certificates */
+/* Code Signing Certificates Page */
 
 .top-border {
     background-color: var(--primary-color);
     height: 20px;
 }
 
-/* Compare Symantec SSL Certificate */
+/* Compare Symantec SSL Certificate Page */
 
 .warning {
     background-color: var(--warning) !important;
@@ -1291,14 +1321,14 @@ section.u-image:not(.u-hover-box), .u-sheet.u-image:not(.u-hover-box), .u-group.
     background-color: var(--info) !important;
 }
 
-/* ISM */
+/* ISM Page */
 
 .ism a {
     color: var(--primary-color);
     text-decoration: none;
 }
 
-/* ISM Management */
+/* ISM Management Page */
 
 .ism-management a {
     color: var(--primary-color);

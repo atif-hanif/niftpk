@@ -58,9 +58,10 @@
 		padding-left: 0.8rem;
 	}
 }
-/* Projects */
+
 
 @media (max-width: 575px) {
+
 	.main-menu {
 		margin-top: 20px;
 	}
@@ -76,6 +77,38 @@
 
 	.nav-item::after {
 		background: transparent;
+	}
+
+	.about h4, .about h5 {
+		text-align: center;
+	}
+
+	.about button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.ibcs h2, .ibcs p {
+		text-align: center;
+	}
+
+	.echeque h2, .echeque p {
+		text-align: center;
+	}
+
+	.partners img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.partners h4, .partners p {
+		text-align: center;
+	}
+
+	.u-text {
+		text-align: center;
 	}
 
 	.u-layout-wrap:not(.u-layout-custom-xs) .u-layout {
@@ -191,6 +224,233 @@
 	.automated-clearing p {
 		text-align: center;
 	}
+
+	.profile-modal h3 {
+		text-align: center;
+		padding-top: 10px;
+	}
+
+	.profile-modal p, .profile-modal h4 {
+		text-align: center;
+	}
+
+	.about-etrust p {
+		text-align: center;
+	}
+
+	.about-etrust button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.etrust-services h3, .etrust-services p, .etrust-services ul li {
+		text-align: center;
+	}
+
+	.etrust-services img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.kpi p {
+		text-align: center;
+	}
+
+	.kpi button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.digicert p {
+		text-align: center;
+	}
+
+	.digicert button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.standard-kpi p, .standard-kpi h4 {
+		text-align: center;
+	}
+
+	.standard-kpi button, .standard-kpi img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.pro-tls h4, .pro-tls h5, .pro-tls p {
+		text-align: center;
+	}
+
+	.pro-tls button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.business-tls h4, .business-tls h5, .business-tls p {
+		text-align: center;
+	}
+
+	.business-tls button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.basic-tls h4, .basic-tls h5, .basic-tls p {
+		text-align: center;
+	}
+
+	.basic-tls button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.wilcard h4, .wilcard h5, .wilcard p {
+		text-align: center;
+	}
+
+	.wilcard ul li p {
+		text-align: left;
+	}
+
+	.wilcard button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.multidomain h4, .multidomain h5, .multidomain p {
+		text-align: center;
+	}
+
+	.multidomain button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.multidomain a {
+		text-align: center;
+	}
+
+	.digi-vmc h4, .digi-vmc h5, .digi-vmc p {
+		text-align: center;
+	}
+
+	.digi-vmc button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.code-signing h4, .code-signing h5, .code-signing p {
+		text-align: center;
+	}
+
+	.code-signing button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.border-right {
+		border-right: 1px solid transparent;
+	}
+
+	.geotrust h4, .geotrust h5, .geotrust p {
+		text-align: center;
+	}
+
+	.geotrust button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.rapidssl h4, .rapidssl h5, .rapidssl p {
+		text-align: center;
+	}
+
+	.rapidssl button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.compare-ssl button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.penetration h3, .penetration p {
+		text-align: center;
+	}
+
+	.penetration button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.fbr-digital h4, .fbr-digital p, .fbr-digital a {
+		text-align: center;
+	}
+
+	.fbr-digital button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.cm-pak h4, .cm-pak a {
+		text-align: center;
+	}
+
+	.cm-pak button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.ism h4, .ism p {
+		text-align: center;
+	}
+
+	.ism-management h4, .ism-management p {
+		text-align: center;
+	}
+
+	.ism-offering h4, .ism-offering p {
+		text-align: center;
+	}
+
+	.project h4, .project p {
+		text-align: center;
+	}
+
+	.events h4, .events p {
+		text-align: center;
+	}
+
+	.events a {
+		margin-bottom: 10px;
+	}
+
+	.events img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media (max-width: 767px) {
@@ -204,6 +464,38 @@
 }
 
 @media (min-width: 576px) and (max-width: 767px) {
+
+	.about h4, .about h5 {
+		text-align: center;
+	}
+
+	.about button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.ibcs h2, .ibcs p {
+		text-align: center;
+	}
+
+	.echeque h2, .echeque p {
+		text-align: center;
+	}
+
+	.partners img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.partners h4, .partners p {
+		text-align: center;
+	}
+
+	.u-text {
+		text-align: center;
+	}
 
 	.u-layout-wrap:not(.u-layout-custom-sm) .u-layout .u-layout-cell {
 		border-left: 0 !important;
@@ -305,9 +597,260 @@
 	.automated-clearing p {
 		text-align: center;
 	}
+
+	.about-etrust p {
+		text-align: center;
+	}
+
+	.about-etrust button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.etrust-services h3, .etrust-services p, .etrust-services ul li {
+		text-align: center;
+	}
+
+	.etrust-services img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.kpi p {
+		text-align: center;
+	}
+
+	.kpi button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.digicert p {
+		text-align: center;
+	}
+
+	.digicert button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.standard-kpi p, .standard-kpi h4 {
+		text-align: center;
+	}
+
+	.standard-kpi button, .standard-kpi img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.pro-tls h4, .pro-tls h5, .pro-tls p {
+		text-align: center;
+	}
+
+	.pro-tls button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.business-tls h4, .business-tls h5, .business-tls p {
+		text-align: center;
+	}
+
+	.business-tls button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.basic-tls h4, .basic-tls h5, .basic-tls p {
+		text-align: center;
+	}
+
+	.basic-tls button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.wilcard h4, .wilcard h5, .wilcard p {
+		text-align: center;
+	}
+
+	.wilcard ul li p {
+		text-align: left;
+	}
+
+	.wilcard button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}	
+
+	.multidomain h4, .multidomain h5, .multidomain p {
+		text-align: center;
+	}
+
+	.multidomain button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.multidomain a {
+		text-align: center;
+	}
+
+	.digi-vmc h4, .digi-vmc h5, .digi-vmc p {
+		text-align: center;
+	}
+
+	.digi-vmc button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.code-signing h4, .code-signing h5, .code-signing p {
+		text-align: center;
+	}
+
+	.code-signing button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.border-right {
+		border-right: 1px solid transparent;
+	}
+
+	.geotrust h4, .geotrust h5, .geotrust p {
+		text-align: center;
+	}
+
+	.geotrust button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.rapidssl h4, .rapidssl h5, .rapidssl p {
+		text-align: center;
+	}
+
+	.rapidssl button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.compare-ssl button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.penetration h3, .penetration p {
+		text-align: center;
+	}
+
+	.penetration button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.fbr-digital h4, .fbr-digital p, .fbr-digital a {
+		text-align: center;
+	}
+
+	.fbr-digital button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.cm-pak h4, .cm-pak a {
+		text-align: center;
+	}
+
+	.cm-pak button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.ism h4, .ism p {
+		text-align: center;
+	}
+
+	.ism-management h4, .ism-management p {
+		text-align: center;
+	}
+
+	.ism-offering h4, .ism-offering p {
+		text-align: center;
+	}
+
+	.project h4, .project p {
+		text-align: center;
+	}
+
+	.events h4, .events p {
+		text-align: center;
+	}
+
+	.events img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.events a {
+		margin-bottom: 10px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+
+	.about h4, .about h5 {
+		text-align: center;
+	}
+
+	.about button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.ibcs h2, .ibcs p {
+		text-align: center;
+	}
+
+	.echeque h2, .echeque p {
+		text-align: center;
+	}
+
+	.partners img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.partners h4, .partners p {
+		text-align: center;
+	}
+
+	.u-text {
+		text-align: center;
+	}
+
 	.user-card-full .btn {
 		position: relative;
 		top: 0px;
@@ -378,6 +921,219 @@
 		text-align: center;
 	}
 
+	.about-etrust p {
+		text-align: center;
+	}
+
+	.about-etrust button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.etrust-services h3, .etrust-services p, .etrust-services ul li {
+		text-align: center;
+	}
+
+	.etrust-services img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.kpi p {
+		text-align: center;
+	}
+
+	.kpi button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.digicert p {
+		text-align: center;
+	}
+
+	.digicert button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.standard-kpi p, .standard-kpi h4 {
+		text-align: center;
+	}
+
+	.standard-kpi button, .standard-kpi img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.pro-tls h4, .pro-tls h5, .pro-tls p {
+		text-align: center;
+	}
+
+	.pro-tls button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.business-tls h4, .business-tls h5, .business-tls p {
+		text-align: center;
+	}
+
+	.business-tls button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.basic-tls h4, .basic-tls h5, .basic-tls p {
+		text-align: center;
+	}
+
+	.basic-tls button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.wilcard h4, .wilcard h5, .wilcard p {
+		text-align: center;
+	}
+
+	.wilcard ul li p {
+		text-align: left;
+	}
+
+	.wilcard button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.multidomain h4, .multidomain h5, .multidomain p {
+		text-align: center;
+	}
+
+	.multidomain button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.multidomain a {
+		text-align: center;
+	}
+
+	.digi-vmc h4, .digi-vmc h5, .digi-vmc p {
+		text-align: center;
+	}
+
+	.digi-vmc button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.code-signing h4, .code-signing h5, .code-signing p {
+		text-align: center;
+	}
+
+	.code-signing button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.border-right {
+		border-right: 1px solid transparent;
+	}
+
+	.geotrust h4, .geotrust h5, .geotrust p {
+		text-align: center;
+	}
+
+	.geotrust button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.rapidssl h4, .rapidssl h5, .rapidssl p {
+		text-align: center;
+	}
+
+	.rapidssl button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.compare-ssl button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.penetration h3, .penetration p {
+		text-align: center;
+	}
+
+	.penetration button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.fbr-digital h4, .fbr-digital p, .fbr-digital a {
+		text-align: center;
+	}
+
+	.fbr-digital button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.cm-pak h4, .cm-pak a {
+		text-align: center;
+	}
+
+	.cm-pak button {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.ism h4, .ism p {
+		text-align: center;
+	}
+
+	.ism-management h4, .ism-management p {
+		text-align: center;
+	}
+
+	.ism-offering h4, .ism-offering p {
+		text-align: center;
+	}
+
+	.project h4, .project p {
+		text-align: center;
+	}
+
+	.events h4, .events p {
+		text-align: center;
+	}
+
+	.events img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -412,6 +1168,10 @@
 
 	.financials-card {
 		height: 100%;
+	}
+
+	.financials-card h5 {
+		text-align: center;
 	}
 
 	.financials-card h5 i {
@@ -449,6 +1209,7 @@
 	.u-section-4 .u-image-3 {
 		min-height: 500px;
 	}
+
 }
 
 @media (min-width: 1400px) and (max-width: 1599px) {
